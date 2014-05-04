@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>NPL</title>
+	<script src="js/code.js"></script> 
+  	<script src="js/slide.js"></script>
+  	<script src="js/language.js"></script>
+
+<!--plus-->
+  <link rel="stylesheet" media="all" href="css/main2.css" />
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> <!--jquery-->
+  <script src="js/code2.js"></script> 
+<!---->
+<!--team-->
+  <link rel="stylesheet" media="all" href="css/main3.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> <!--jquery-->
+  <script src="js/code3.js"></script> 
+  <script src="js/language.js"></script> 
+<!---->
+<!--MAP-->
+
+  <!-- <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 100% }
+    </style>
+    <script>
+      map = new GMaps({
+  div: '#map',
+  zoom: 16,
+  lat: -12.043333,
+  lng: -77.028333,
+  click: function(e) {
+    alert('click');
+  },
+  dragend: function(e) {
+    alert('dragend');
+  }
+});
+      GMaps.geolocate({
+  success: function(position) {
+    map.setCenter(position.coords.latitude, position.coords.longitude);
+  },
+  error: function(error) {
+    alert('Geolocation failed: '+error.message);
+  },
+  not_supported: function() {
+    alert("Your browser does not support geolocation");
+  },
+  always: function() {
+    alert("Done!");
+  }
+});
+    </script>-->
+    
+<!---->
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
+	
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		//location.assign("url");
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#1bbc9b', '#4BBFC3'],
+				anchors: ['main', 'what_we_do', 'our_advantages', 'our_team', 'how_to_find_us'],
+				menu: '#menu',
+				loopTop: true,
+				loopBottom: true
+			});
+		});
+	</script>
+
+
+
+</head>
+<body onload="changSlogan(); sloganHover();" onKeyDown="getKey(event)">
+<div id="menu" 
+style="position: fixed;
+  width: 250px;
+  height: 100%;
+  background-color: rgba(42,38,35,.9);
+  top:0;
+  left:0;
+  z-index: 70;
+  padding: 0;
+  margin:0;">
+	<!--<div class="menu_arrow"></div>-->
+	<!--<img src="img/arrow.png" class="menu_arrow">-->
+	<div class="menu_language">
+		<h1 class="menu_language_eng" onclick="changeLanguage()">in English</h1>
+		<h1 class="menu_language_rus" onclick="changeLanguage()">по Русски</h1>
+	</div>
+	<div class="menu_logo">
+		<img class="menu_logo_img" src="img/logo.png" width=114px;>
+	</div>
+	<div class="menu_nav">
+		<ul class="menu_nav_ul">
+			<li data-menuanchor="main" class="active"><a class="menu_nav_ul_first" onclick="firstSlide()" href="#main">Главная<a></li>
+			<li data-menuanchor="what_we_do"><a class="menu_nav_ul_second" onclick="secondSlide()" href="#what_we_do">Чем мы можем помочь</a></li>
+			<li data-menuanchor="our_advantages"><a class="menu_nav_ul_third" onclick="thirdSlide()" href="#our_advantages">Наши плюсы</a></li>
+			<li data-menuanchor="our_team"><a class="menu_nav_ul_fourth" onclick="fourthSlide()" href="#our_team">Наша команда</a></li>
+			<li data-menuanchor="how_to_find_us" class="menu_nav_ul_fifth_last"><a class="menu_nav_ul_fifth" onclick="fifthSlide()" href="#how_to_find_us">Как нас найти</a></li>
+		</ul>
+	</div>
+	<div class="menu_contact">
+		<h1 class="menu_contact_tel">+38 (044) 222 94 05</h1>
+		<h1 class="menu_contact_mail">hello@nolcorporate.com.ua</h1>
+		<div class="menu_contact_img">
+			<img class="menu_contact_img_vk" src="img/vk.png" width=20px>
+			<img class="menu_contact_img_fb" src="img/fb.png" width=20px>
+			<img class="menu_contact_img_tw" src="img/tw.png" width=20px>
+		</div>
+	</div>
+	<h1 class="menu_name">© NPL Corporate Soutions</h1>
+</div>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="first_slide" style="z-index: 60;">
+			<div class="first_slide_bg">
+				<div class="first_slide_bg_div"></div>
+				<img class="first_slide_bg_img" src="img/slidemain.png" width=100%>
+			</div>
+			<div class="first_slide_titel">
+					<h1 class="first_slide_titel_h1">Мы организовываем  деловые путешествия</h1>
+			</div>
+			<div class="first_slide_content">
+				<h1 class="first_slide_content_h1">При этом</h1>
+				<img class="first_slide_content_img" src="img/arf1.png" width=100px;>
+				<div class="first_slide_content_change">
+					<div class="first_slide_content_change_first">
+						<h1 class="first_slide_content_change_first_h1"><span>Экономим</span> до 30% корпоративного<br>бюджета на поездки</h1>
+					</div>
+					<div class="first_slide_content_change_second">
+						<h1 class="first_slide_content_change_second_h1"><span>Знаем</span> все про перелеты, отели и визовую поддержку</h1>
+					</div>
+					<div class="first_slide_content_change_third">
+						<h1 class="first_slide_content_change_third_h1"><span>Отправляем</span> на выставки</h1>
+					</div>	
+					<div class="first_slide_content_change_fourth">
+						<h1 class="first_slide_content_change_fourth_h1"><span>Обслуживаем</span> конференции по всему миру</h1>
+					</div>
+					<div class="first_slide_content_change_fifth">
+						<h1 class="first_slide_content_change_fifth_h1"><span>Делимся</span> проверенными решениями с турагенствами</h1>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</div>
+	<div class="section" id="section1">
+		<div class="second_slide" style="z-index: 60;">
+			<!--<div class="second_slide_bg">
+				<img class="second_slide_bg_img" src="img/bg.png" width=100%>
+			</div>-->
+			<div class="second_slide_txt">
+				<div class="second_slide_txt_first_hover">
+					<h1>Мы работаем только с успешными</h1>
+					<div class="second_slide_txt_first_hover_trigle"></div>
+				</div>
+				<h1>Если вы <span class="second_slide_txt_first">успешная</span> компания, и у вас есть дела по всему миру, мы поможем вам и вашим сотрудникам сфокусироваться на бизнесе во время деловых поездок.<h1>
+				<div class="second_slide_txt_second_hover">
+					<h1>Наша команда организует все: от двери вашего вашего офиса до нее же</h1>
+					<div class="second_slide_txt_second_hover_trigle"></div>
+				</div>
+				<h1><span class="second_slide_txt_second">На себя</span> берем перелеты, отели, страховки, трансферы и столики в ресторана.<h1>
+				<div class="second_slide_txt_third_hover">
+					<h1>Уверены, что по-другому серьезных результатов не достичь</h1>
+					<div class="second_slide_txt_third_hover_trigle"></div>
+				</div>
+				<h1 >Мы занимаемся тем, что нам <span class="second_slide_txt_third">нравится</span>, вы — тем, что вам.<h1>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section2">
+			<!--/////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+	<!--Informationen blockieren -->
+	<div class="third_slide" style="z-index: 60;">
+	<div class = "info-block">
+
+		<ul class = "info-block__pluses">
+
+			<li class = "info-block__plus" ><u id = "1Plus">Персональный менеджер   </u></li>
+			<li class = "info-block__plus-info" id = "1PlusInfo">
+			<img src = "img/1.png" class = "info-block__pluses__img"
+				style = "left:-345px;
+						 top:0;"
+			>
+			<span class = "info-block__pluses__arrow" style = "border-right-color:#2d9bc4;"></span>
+У вас будет персональный менеджер, доступный 24/7 и решающий все возможные туристические вопросы. Это основа нашего продукта и наша гордость.	</li>
+
+			<li class = "info-block__plus" ><u id = "2Plus">Высокая технологичность </u></li>
+			<li class = "info-block__plus-info" id = "2PlusInfo">
+			<img src = "img/2.png" class = "info-block__pluses__img"
+				style = "left:-431px;
+						 top:0px;"
+			>
+			<span class = "info-block__pluses__arrow" style = "border-right-color:#2c97c2;"></span></li>
+
+			<li class = "info-block__plus" ><u id = "3Plus">Ваша туристическая CRM  </u></li>
+			<li class = "info-block__plus-info" id = "3PlusInfo">
+			<img src = "img/3.png" class = "info-block__pluses__img"
+				style = "left:-345px;
+						 top:0px;"
+			>
+			<span class = "info-block__pluses__arrow" style = "border-right-color:#298dbe;"></span></li>
+
+		</ul>
+	</div>
+</div>
+	<!--Ende eines Blocks von Informationen-->
+	</div>
+	<div class="section" id="section3">
+		<div class="fourth_slide" style="z-index: 60;">
+						<!--Slider blockieren -->
+
+		<div class = "right-part">
+
+			<div class = "slider-block">
+				<div class = "slider-block__photo">
+					<div class = "holder">
+
+						<img src="img/Slide1.png" class = "slider-block__photo__img" id = "slider-block__photo__img">
+
+						<img src="http://grandwallpapers.net/wallpapers/kotik-v-shoke/kotik-v-shoke_1600x1200.jpg" class = "slider-block__photo__img" id = "slider-block__photo__img">
+
+						<img src="http://nibler.ru/uploads/users/5694/2012-04-29/kotik-milyy-samyy-kartinki-koshki-sobaki-smeshnye-zhivotnye-kote_978133754.jpg" class = "slider-block__photo__img" id = "slider-block__photo__img">
+
+						<img src="http://hq-wallpapers.ru/wallpapers/2/hq-wallpapers_ru_animals_8040_1280x1024.jpg" class = "slider-block__photo__img" id = "slider-block__photo__img">
+
+						<img src="http://risovach.ru/upload/2012/11/generator/pidrila-ebanaya-kotik_3813593_orig_.jpeg" class = "slider-block__photo__img"  id = "slider-block__photo__img">
+						
+					</div>
+
+								<ul class = "slider-block__buttons">
+					<li class = "slider-block__buttons__round" id = "1SliderBlock_Buttons_Round" style = "background-color:white;"></li>
+					<li class = "slider-block__buttons__round" id = "2SliderBlock_Buttons_Round"></li>
+					<li class = "slider-block__buttons__round" id = "3SliderBlock_Buttons_Round"></li>
+					<li class = "slider-block__buttons__round" id = "4SliderBlock_Buttons_Round"></li>
+					<li class = "slider-block__buttons__round" id = "5SliderBlock_Buttons_Round"></li>
+								</ul>
+
+				</div>
+
+			</div>
+
+			<div class = "slogan">
+				<span class = "slogan__horizontal-border"></span>
+				<span class = "slogan__vertical-border"></span>
+				<div class = "slogan__text-wrapper">
+					<div class = "slogan__text">
+						Нам нравится бизнес и путешествия. Мы в курсе событий и всегда можем дать классные рекомендации. Все мы профессионалы и дружная команда. 
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!--Ende eines Blocks von Slider-->
+	</div>
+	</div>
+	<div class="section" id="section4" >
+		<div class="fifth_slide" style="z-index: 60;">
+			<!--<div id="map-canvas"/>-->
+		</div>
+	</div>
+</div>
+	 <!-- <script>
+/*var elem =  document.body;
+if (elem.addEventListener) {
+  if ('onwheel' in document) {
+    elem.addEventListener ("wheel", onWheel, false);
+  } else if ('onmousewheel' in document) {
+    elem.addEventListener ("mousewheel", onWheel, false);
+  } else {
+    elem.addEventListener ("MozMousePixelScroll", onWheel, false);
+  }
+} else {
+  elem.attachEvent ("onmousewheel", onWheel);
+}
+function onWheel(e) {
+  e = e || window.event;
+  var delta = e.deltaY || e.detail || e.wheelDelta;
+  if(delta>0){
+    if(d===1){
+              if(curPage===1){
+                 secondSlide();
+               }
+               else if(curPage===2){
+                 thirdSlide();
+               }
+               else if(curPage===3){
+                 fourthSlide()
+               }
+               else if(curPage===4){
+                 fifthSlide();
+               }
+               else if(curPage===5){
+                 firstSlide();
+               }
+             d++;
+             console.log(curPage);
+             setTimeout('d=1', 2300);
+    }
+
+  }
+  else if(delta<0){
+      if(u===1){
+           	   if(curPage===1){
+                 fifthSlide();
+               }
+               if(curPage===2){
+                 firstSlide();
+               }
+               else if(curPage===3){
+                 secondSlide();
+               }
+               else if(curPage===4){
+                 thirdSlide();
+               }
+               else if(curPage===5){
+               	 fourthSlide()
+               }
+              u++;
+              console.log(curPage);
+              setTimeout('u=1', 2300);
+    }
+  }
+}
+*/
+  </script>-->
+</body>
+</html>

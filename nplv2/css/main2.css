@@ -1,0 +1,148 @@
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body{
+  line-height: 1;
+  overflow: hidden;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+::-mos-scrollbar { 
+    display: none; 
+}
+@font-face {
+    font-family: PT Sans; 
+    src: local("PT_Sans-Web-Regular"), 
+         url("font/PT_Sans-Web-Regular.ttf"); 
+}
+/*test*/
+.tmp{
+  z-index: -100;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+/*test*/
+
+
+.third_slide{
+  background: #2d9bc4; /* Old browsers */
+  background: -moz-radial-gradient(center, circle cover, #2d9bc4 0%, #072690 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#2d9bc4), color-stop(100%,#072690)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, circle cover, #2d9bc4 0%,#072690 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, circle cover, #2d9bc4 0%,#072690 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, circle cover, #2d9bc4 0%,#072690 100%); /* IE10+ */
+  background: radial-gradient(circle at center, #2d9bc4 0%,#072690 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d9bc4', endColorstr='#072690',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.info-block{
+  width:550px;
+  position:relative;
+  margin-left:50%;
+  top:200px;
+}
+
+.info-block__plus{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.info-block__plus-info{
+  font-weight: normal;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 24px;
+  color: #fff;
+  line-height: 30px;
+  border:1px dashed white;
+  border-radius: 0px 20px 20px 20px;
+  padding:25px;
+  margin-bottom: 35px;
+  position: relative; 
+}
+
+.info-block__pluses__arrow{
+  width:44px;
+  z-index: 100;
+  height:50px;
+  position: relative;
+  display: block;
+  left:-71px;
+  top:-26px;
+  overflow: hidden;
+  border:1px dashed white;
+    border-right-style: solid;
+  border-bottom-left-radius:198px;
+}
+
+.info-block__pluses__img{
+  position: absolute;
+  display:inline;
+}
+
+u {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  -o-user-select: none;
+  user-select: none;  
+  border-bottom: 2px dotted white;
+  text-decoration: none;
+}
