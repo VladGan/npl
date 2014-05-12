@@ -93,17 +93,30 @@ table {
 /*                                Slider blockieren                             */
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
 
+.slider-and-slogan-wrapper
+{
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+}
 .right-part
 {
   position:relative;
   height:100%;
   margin-left:250px;
+  text-align: center;
 }
-
+.right-part:before
+{
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
 .slider-block
 {
   top:40px;
-  text-align: center;
   position:relative;
   width: 730px;
   height: 450px;
@@ -112,14 +125,6 @@ table {
   border:3px solid white;
   margin:0 auto;
 }
-
-.slider-block:before {
-  content: '';
-  display: inline-block;
-  height: 100%; 
-  vertical-align: middle;
-  margin-right: -0.25em;
- }
 
 .slider-block__photo
 {
