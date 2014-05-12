@@ -93,6 +93,7 @@ table {
 /*                                Slider blockieren                             */
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
 
+<<<<<<< HEAD:css/main3.css
 
 .block {
   text-align: center;
@@ -116,6 +117,13 @@ table {
 }
 
 
+=======
+.slider-and-slogan-wrapper
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+>>>>>>> origin/master:css/main3.css
 .right-part
 {
   position:relative;
@@ -123,6 +131,7 @@ table {
   margin-left:250px;
   text-align: center;
 }
+<<<<<<< HEAD:css/main3.css
 
 .right-part:before {
   content: '';
@@ -130,12 +139,18 @@ table {
   height: 100%;
   vertical-align: middle;
   margin-right: -0.25em; /* Adjusts for spacing */
+=======
+.right-part:before
+{
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em;
+>>>>>>> origin/master:css/main3.css
 }
-
 .slider-block
 {
-  top:40px;
-  text-align: center;
   position:relative;
   width: 730px;
   height: 450px;
@@ -143,18 +158,21 @@ table {
   border-radius: 10px;
   border:3px solid white;
   margin:0 auto;
+<<<<<<< HEAD:css/main3.css
     display: inline-block;
   vertical-align: middle;
+=======
+  text-align: center;
+>>>>>>> origin/master:css/main3.css
 }
-
-.slider-block:before {
+.slider-block:before
+{
   content: '';
   display: inline-block;
   height: 100%; 
   vertical-align: middle;
   margin-right: -0.25em;
- }
-
+}
 .slider-block__photo
 {
   width: 91%;
@@ -184,7 +202,7 @@ table {
   height:95px;
   position: relative;
   margin:0 auto;
-  margin-top: 60px;
+  margin-top: 40px;
   overflow: hidden;
 }
 
@@ -215,6 +233,7 @@ table {
   top:15px;
   height: 67px;
   position: absolute;
+  left:0px;
 }
 
 .slogan__vertical-border:before,.slogan__horizontal-border:before,.slogan__vertical-border:after,.slogan__horizontal-border:after
