@@ -157,8 +157,8 @@ table {
 }
 
 .slogan{
-  width:535px;
-  height:95px;
+  width:580px;
+  height:73px;
   position: relative;
   margin:0 auto;
   margin-top: 40px;
@@ -179,18 +179,18 @@ table {
 .slogan__horizontal-border{
   border-top: 3px solid white;
   border-bottom: 3px solid white;
-  width:505px;
+  width:545px;
   left:15px;
-  height: 89px;
+  height: 67px;
   position: absolute;
 }
 
 .slogan__vertical-border{
   border-left: 3px solid white;
   border-right: 3px solid white;
-  width:529px;
+  width:574px;
   top:15px;
-  height: 67px;
+  height: 39px;
   position: absolute;
   left:0px;
 }
@@ -202,8 +202,8 @@ table {
 }
 .slogan__horizontal-border:before
 {
-  top: 76px;
-  left:502px;
+  top: 51px;
+  left:545px;
   background: transparent;
   width: 26px;
   height: 26px;
@@ -212,7 +212,7 @@ table {
 }
 .slogan__horizontal-border:after
 {
-  top: 77px;
+  top: 51px;
   left:-29px;
   background: transparent;
   width: 26px;
@@ -233,7 +233,7 @@ table {
 .slogan__vertical-border:after
 {
   top: -29px;
-  left:514px;
+  left:557px;
   background: transparent;
   width: 26px;
   height: 26px;
