@@ -55,6 +55,7 @@ var l=true;
  		document.querySelector('.menu_nav_ul_second').innerHTML="Чем мы можем помочь";
  		document.querySelector('.menu_nav_ul_third').innerHTML="Наши плюсы";
  		document.querySelector('.menu_nav_ul_fourth').innerHTML="Наша команда";
+ 		document.querySelector('.menu_nav_ul_fifth').innerHTML="Как нас найти";
  		 //first slide
  		document.querySelector('.first_slide_titel_h1').innerHTML="Мы организовываем  деловые путешествия";
  		document.querySelector('.first_slide_content_h1').innerHTML="При этом";
