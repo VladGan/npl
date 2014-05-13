@@ -123,6 +123,7 @@ table {
   border:3px solid white;
   margin:0 auto;
   text-align: center;
+  display: inline-block;
 }
 .slider-block:before
 {
