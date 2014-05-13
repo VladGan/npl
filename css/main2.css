@@ -166,7 +166,7 @@ table {
    vertical-align: middle;
    text-align: center;
 }
-u {
+.info-block__plus__underline {
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
