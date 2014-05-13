@@ -75,12 +75,11 @@ table {
 
 .fourth_slide{
   background: #2d9bc4; /* Old browsers */
-  background: -moz-radial-gradient(center, circle cover, #2d9bc4 0%, #072690 100%); /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#2d9bc4), color-stop(100%,#072690)); /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, circle cover, #2d9bc4 0%,#072690 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, circle cover, #2d9bc4 0%,#072690 100%); /* Opera 12+ */
-  background: -ms-radial-gradient(center, circle cover, #2d9bc4 0%,#072690 100%); /* IE10+ */
-  background: radial-gradient(circle at center, #2d9bc4 0%,#072690 100%); /* W3C */
+  background: -moz-radial-gradient(center, ellipse closest-side, rgba(45, 155, 196, 1) 100%, rgba(7, 38, 144, 1) 0%); /* FF3.6+ */
+  background: -webkit-radial-gradient(center, ellipse closest-side, rgba(45, 155, 196, 1) 100%, rgba(7, 38, 144, 1) 0%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse closest-side, rgba(45, 155, 196, 1) 100%, rgba(7, 38, 144, 1) 0%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse closest-side, rgba(45, 155, 196, 1) 100%, rgba(7, 38, 144, 1) 0%); /* IE10+ */
+  background: radial-gradient(center, ellipse closest-side, rgba(45, 155, 196, 1) 100%, rgba(7, 38, 144, 1) 0%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d9bc4', endColorstr='#072690',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   position: absolute;
   width: 100%;

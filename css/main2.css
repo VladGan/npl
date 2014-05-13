@@ -134,31 +134,14 @@ table {
   font-family: 'PT Sans', sans-serif;
   font-size: 24px;
   color: #fff;
-  line-height: 30px;
-  border:1px dashed white;
-  border-radius: 0px 20px 20px 20px;
+  line-height: 35px;
   padding:25px;
   margin-bottom: 35px;
   position: relative; 
   min-height:90px;
   text-align: left;
-  width:420px;
-}
-.info-block__plus-info:before
-{
-  content: '';
-  width:44px;
-  z-index: 100;
-  height:50px;
-  position: absolute;
-  display: block;
-  left:-46px;
-  top:-1px;
-  overflow: hidden;
-  border:1px dashed white;
-  border-right-style: solid;
-  border-right-color: #2581b8;
-  border-bottom-left-radius:198px;
+  width:496px;
+  min-height:149px;
 }
 
 .info-block__pluses__img{

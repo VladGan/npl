@@ -48,7 +48,7 @@ $(document).ready(function(){
 		{
 			$(".img-wrapper").css("height",this.height + "px!important");
 			$(".info-block__pluses__img").attr("src","img/"+id[0]+".png");
-			$(".info-block__pluses__img").css("left",500 - this.height/2+"px");
+			$(".info-block__pluses__img").css("left",480 - this.height/2+"px");
 		}
 
 		img.src = "img/" + id[0] + ".png";
