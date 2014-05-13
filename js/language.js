@@ -28,6 +28,14 @@ var l=true;
  		document.querySelector('.second_slide_txt').children[5].innerHTML='We do what we <span class="second_slide_txt_third">like</span>, you - so that you do.';
  		document.querySelector('.second_slide_txt_third_hover').children[0].innerHTML="Sure differently to achieve serious results";
  		sloganHover();
+ 		//second slode posiiton
+ 		document.querySelector('.second_slide_txt_first_hover').children[0].style.cssText="margin-left: -30px;";
+ 		document.querySelector('.second_slide_txt_second_hover').children[0].style.cssText="margin-left: -5px;";
+ 		document.querySelector('.second_slide_txt_third_hover').children[0].style.cssText="margin-left: -100px;";
+  		//trigle
+ 		document.querySelector('.second_slide_txt_first_hover').children[1].style.cssText="margin-left: 100px;";
+ 		document.querySelector('.second_slide_txt_second_hover').children[1].style.cssText="margin-left: 20px;";
+ 		document.querySelector('.second_slide_txt_third_hover').children[1].style.cssText="margin-left: 90px;";
 
  		//third slide
  		document.getElementById("1Plus").innerHTML="Personal Manager  ";
@@ -47,9 +55,7 @@ var l=true;
  		document.querySelector('.menu_nav_ul_second').innerHTML="Чем мы можем помочь";
  		document.querySelector('.menu_nav_ul_third').innerHTML="Наши плюсы";
  		document.querySelector('.menu_nav_ul_fourth').innerHTML="Наша команда";
- 		document.querySelector('.menu_nav_ul_fifth').innerHTML="Как нас найти";
-
- 		//first slide
+ 		 //first slide
  		document.querySelector('.first_slide_titel_h1').innerHTML="Мы организовываем  деловые путешествия";
  		document.querySelector('.first_slide_content_h1').innerHTML="При этом";
  		document.querySelector('.first_slide_content_change_first_h1').innerHTML="<span>Экономим</span> до 30% корпоративного<br>бюджета на поездки";
@@ -66,6 +72,14 @@ var l=true;
  		document.querySelector('.second_slide_txt').children[5].innerHTML='Мы занимаемся тем, что нам <span class="second_slide_txt_third">нравится</span>, вы — тем, что вам.';
  		document.querySelector('.second_slide_txt_third_hover').children[0].innerHTML="Уверены, что по-другому серьезных результатов не достичь";
  		sloganHover();
+ 		//second slode posiiton
+ 		document.querySelector('.second_slide_txt_first_hover').children[0].style.cssText="margin-left: 0px;";
+ 		document.querySelector('.second_slide_txt_second_hover').children[0].style.cssText="margin-left: 0px;";
+ 		document.querySelector('.second_slide_txt_third_hover').children[0].style.cssText="margin-left: 0px;";
+ 		//trigle
+ 		document.querySelector('.second_slide_txt_first_hover').children[1].style.cssText="margin-left: 120px;";
+ 		document.querySelector('.second_slide_txt_second_hover').children[1].style.cssText="margin-left: 40px;";
+ 		document.querySelector('.second_slide_txt_third_hover').children[1].style.cssText="margin-left: 320px;";
 
  		//third slide
  		document.getElementById("1Plus").innerHTML="Персональный менеджер   ";
