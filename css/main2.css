@@ -121,6 +121,11 @@ table {
   vertical-align: middle;
 }
 
+.info-block__pluses
+{
+  text-align: left;
+}
+
 .info-block__plus{
   font-family: 'PT Sans', sans-serif;
   font-size: 36px;
