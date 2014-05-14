@@ -89,14 +89,7 @@ table {
   left: 0px;
   overflow: hidden;
 }
-.third_slide:before
-{
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em;
-}
+
 .info-block__wrapper
 {
   text-align: center;
@@ -160,7 +153,6 @@ table {
 {
   display: inline-block;
   vertical-align: middle;
-  left:327.5px;
   height:289px;
 }
 .img-wrapper td {
