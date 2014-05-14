@@ -491,8 +491,9 @@ table {
   background: radial-gradient(circle at center, #2d9bc4 0%,#072690 100%); /* W3C */
   top: 0px;
 }
-#map{
+#YMapsID{
   position: absolute;
+  /*left: 0px;*/
   height: 100%;
   width: 100%;
 }
