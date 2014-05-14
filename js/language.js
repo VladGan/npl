@@ -41,7 +41,11 @@ var l=true;
  		document.getElementById("1Plus").innerHTML="Personal Manager  ";
  		document.getElementById("2Plus").innerHTML="High technology   ";
 		document.getElementById("3Plus").innerHTML="Your travel CRM  ";
-
+		document.getElementById("1PlusInfo").children[1].innerHTML="You will have a personal manager, available 24/7 and solve all possible travel issues. This is the basis of our product and our pride.";
+		document.getElementById("2PlusInfo").children[1].innerHTML="Of course, not without it. We are looking for tickets at 3 locations in the world (which is rare), it allows you to see almost all the airlines and find the most convenient connections and prices.";
+		document.getElementById("3PlusInfo").children[1].innerHTML="Now you can see the whole picture of your business trips in one program. Moreover, it is comfortable and functional.";
+	
+		
  		//fourth slide
  		document.querySelector('.slogan__text').innerHTML="We like to travel and business. We tuned in and can always give great recommendations. All we are professionals and friendly team.";
  		l=false;
@@ -86,8 +90,10 @@ var l=true;
  		document.getElementById("1Plus").innerHTML="Персональный менеджер   ";
  		document.getElementById("2Plus").innerHTML="Высокая технологичность   ";
 		document.getElementById("3Plus").innerHTML="Ваша туристическая CRM    ";
-
-
+		document.getElementById("1PlusInfo").children[1].innerHTML="У вас будет персональный менеджер, доступный 24/7 и решающий все возможные туристические вопросы. Это основа нашего продукта и наша гордость.";
+		document.getElementById("2PlusInfo").children[1].innerHTML="Конечно же, не без этого. Мы ищем билеты через 3 локации в мире (что редкость), это позволяет видеть почти все авиакомпании и находить самые удобные стыковки, и цены.";
+		document.getElementById("3PlusInfo").children[1].innerHTML="Теперь вы сможете видеть всю картину деловых поездок вашей компании в одной программе. Более того, она удобная и функциональная.";
+	
  		//fourth slide
  		document.querySelector('.slogan__text').innerHTML="Нам нравится бизнес и путешествия. Мы в курсе событий и всегда можем дать классные рекомендации. Все мы профессионалы и дружная команда.";
  		l=true;
