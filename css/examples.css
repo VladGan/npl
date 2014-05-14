@@ -334,6 +334,8 @@ table {
   font-weight: bold;
   border-bottom: #fff dotted 2px;
   cursor: pointer;
+  font-family: PT sans;
+  font-weight: normal;
 }
 .second_slide_txt_first_hover,
 .second_slide_txt_second_hover,

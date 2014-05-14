@@ -89,8 +89,13 @@ table {
   left: 0px;
   overflow: hidden;
 }
-
-.info-block__wrapper
+.info-block__small-wrapper
+{
+  display: inline-block;
+  vertical-align: middle;
+  width:100%;
+}
+.info-block__big-wrapper
 {
   text-align: center;
   width:100%;
@@ -98,7 +103,7 @@ table {
   display: inline-block;
   vertical-align: middle;
 }
-.info-block__wrapper:before
+.info-block__big-wrapper:before
 {
   content: '';
   display: inline-block;
@@ -120,7 +125,7 @@ table {
 }
 
 .info-block__plus{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans';
   font-size: 36px;
   font-weight: bold;
   color: #fff;
@@ -129,7 +134,7 @@ table {
 }
 .info-block__plus-info{
   font-weight: normal;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans';
   font-size: 24px;
   color: #fff;
   line-height: 35px;

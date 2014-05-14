@@ -55,11 +55,6 @@ table {
 ::-mos-scrollbar { 
     display: none; 
 }
-@font-face {
-    font-family: PT Sans; 
-    src: local("PT_Sans-Web-Regular"), 
-         url("font/PT_Sans-Web-Regular.ttf"); 
-}
 /*test*/
 .tmp{
   z-index: -100;
@@ -246,13 +241,13 @@ table {
 
 .slogan__text
 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans';
+  font-weight: normal;
   font-size: 15px;
   color: white;
   line-height: 20px;
   text-align: center;
   padding:30px;
-  font-weight: normal;
 }
 
 .slogan__horizontal-border{
