@@ -8,7 +8,7 @@ function waitSlogan(){
  	if(i<0){
        i=100;
     }
-    i-=0.2857;
+    i-=0.285714;
 }
 function changSlogan(){
 	setInterval(function(){
