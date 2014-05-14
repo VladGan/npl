@@ -65,7 +65,17 @@ ymaps.ready(function () {
 			$('#fullpage').fullpage({
 				slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#1bbc9b', '#4BBFC3'],
 				anchors: ['main', 'what_we_do', 'our_advantages', 'our_team', 'how_to_find_us'],
-				menu: '#menu',	
+				menu: '#menu',
+				afterLoad: function(anchorLink, index){
+		           
+		       
+		            if(anchorLink == 'how_to_find_us'){
+		               
+		               	$('#section4').fullpage.setAllowScrolling(false);
+		            }
+		            else
+		            	$('#section4').fullpage.setAllowScrolling(true);
+		        }	
 			});
 			$('#section4').fullpage.setAllowScrolling(false);	
 		});
