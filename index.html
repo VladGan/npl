@@ -137,8 +137,17 @@ function init () {
 				slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#1bbc9b', '#4BBFC3'],
 				anchors: ['main', 'what_we_do', 'our_advantages', 'our_team', 'how_to_find_us'],
 				menu: '#menu',
-				loopTop: true,
-				loopBottom: true
+				'onLeave': function(index, newIndex, direction){
+					if (index == 4 && direction == 'down'){
+						$('.section').eq(index -1).removeClass('moveDown').addClass('moveUp');
+					}
+					else if(index == 4 && direction == 'up'){
+						$('.section').eq(index -1).removeClass('moveUp').addClass('moveDown');
+					}
+					$('#staticImg').toggleClass('active', (index == 4 && direction == 'down' ) || (index == 4 && direction == 'up'));
+					$('#staticImg').toggleClass('moveDown', index == 4 && direction == 'down');	
+
+				}
 			});
 		});
 	</script>
