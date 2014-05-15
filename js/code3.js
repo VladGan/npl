@@ -9,6 +9,7 @@ $(document).ready(function(){
 		{
 			slider: $(".slider-block__photo"),
 			allSlides: $(".slider-block__photo__img"),
+			sliderNav: $(".slider-block__buttons__round"),
 			allNavButtons: $(".slider-block__buttons__round")
 		},
 
