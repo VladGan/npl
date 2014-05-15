@@ -9,11 +9,7 @@ function waitSlogan(){
 		changSlogan();
 		i=100;
     }
-<<<<<<< HEAD
     i-=1/3;
-=======
-    i-=0.255;
->>>>>>> 0c38b7f14fdd8a3e1ed78e340926b6213c932827
 }
 function changSlogan(){
 		if(t===1){
@@ -43,15 +39,9 @@ function changSlogan(){
 		}
 		i=0;
 		//console.log("t="+t);
-<<<<<<< HEAD
 	};
 y=setInterval(waitSlogan, 10);
 
-=======
-	},4100);
-	y=setInterval(waitSlogan, 10);
-}
->>>>>>> 0c38b7f14fdd8a3e1ed78e340926b6213c932827
 
 /*second slide hover slogan*/
 function sloganHover(){
