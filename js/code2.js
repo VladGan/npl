@@ -78,14 +78,11 @@ $(document).ready(function(){
 
 		var Id = el.id;
 		$(".slider-block__buttons__round").css("background-color","transparent");
-		$(".slider-block__buttons__round").css("width","12px");
-		$(".slider-block__buttons__round").css("height","12px");
-		
+		$(".slider-block__buttons__round").css("border","2px solid white");
 		$("#" + Id).css("background-color","white");
-		$("#" + Id).css("width","14px");
-		$("#" + Id).css("height","14px");
-		Id = el.id [0];
+		$("#" + Id).css("border","3px solid white");
 
+		Id = el.id [0];
 
 
 		var $left = -(Id-1)*636;
