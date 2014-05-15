@@ -55,11 +55,6 @@ table {
 ::-mos-scrollbar { 
     display: none; 
 }
-@font-face {
-    font-family: PT Sans; 
-    src: local("PT_Sans-Web-Regular"), 
-         url("font/PT_Sans-Web-Regular.ttf"); 
-}
 
 /*----------------------------------------------menu----------------------------------------------*/
 #menu{
