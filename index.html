@@ -42,8 +42,8 @@ var m,
 	p2;
 ymaps.ready(function () {
     var myMap = window.map = new ymaps.Map('YMapsID', {
-            center: [50.440055, 30.504055],
-            zoom: 17,
+            center: [50.440755, 30.504055],
+            zoom: 16,
             behaviors: ['default', 'scrollZoom']
         }),
        myPlacemark = new ymaps.Placemark([50.439558, 30.504855], {
@@ -73,7 +73,7 @@ ymaps.ready(function () {
             iconImageSize: [490, 177],
             // Смещение левого верхнего угла иконки относительно
             // её "ножки" (точки привязки).
-            iconImageOffset: [-205, -182]
+            iconImageOffset: [-180, -170]
         });
     // Добавляем все метки на карту.
         //if(!l){myPlacemark2.iconImageHref="img/how_to_find_us_eng.png";}
