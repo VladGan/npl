@@ -86,7 +86,9 @@ ymaps.ready(function () {
 		            	$('#section4').fullpage.setAllowScrolling(true);
 		        }	
 			});
-			//$('#section4').fullpage.setAllowScrolling(false);	
+			$("#map_arrow").click(function(){
+				$.fn.fullpage.moveTo('our_team');
+			});	
 		});
 	</script>
 
@@ -128,9 +130,10 @@ style="position: fixed;
 			<h1 class="menu_contact_tel">+38 (044) 222 94 05</h1>
 			<h1 class="menu_contact_mail"><a href="mailto:hello@nolcorporate.com.ua" style="text-decoration: none; color: #fff;   font-family: 'PT Sans';">hello@nolcorporate.com.ua</a></h1>
 			<div class="menu_contact_img">
-				<img class="menu_contact_img_vk" src="img/vk.png" width=20px>
-				<img class="menu_contact_img_fb" src="img/fb.png" width=20px>
-				<img class="menu_contact_img_tw" src="img/tw.png" width=20px>
+				<a href="https://plus.google.com/u/0/+NplcorporateUa/posts"><img class="menu_contact_img_vk" src="img/g+.png" width=20px></a>
+				<a href="https://www.facebook.com/nplcorporate"><img class="menu_contact_img_fb" src="img/fb.png" width=20px></a>
+				<a href="https://twitter.com/NPLcorporate"><img class="menu_contact_img_tw" src="img/tw.png" width=20px></a>
+				<a href="http://www.linkedin.com/company/3539238?trk=NUS_CMPY_FOL-pdctd"><img class="menu_contact_img_in" src="img/in.png" width=20px></a>
 			</div>
 		</div>
 		<h1 class="menu_name">© NPL Corporate Soutions</h1>
@@ -291,7 +294,7 @@ style="position: fixed;
 	</div>
 	<div class="section" id="section4" >
 		<div class="fifth_slide" style="z-index: 60;">
-			<!--<div id="map-canvas"/>-->
+			<img src="img/map_arrow.png" id="map_arrow">
 			<div class="hero-unit">
     			<div class="container">
         			<div id="YMapsID"></div>
