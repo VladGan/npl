@@ -37,29 +37,59 @@
     <script src="http://api-maps.yandex.ru/2.0/?lang=ru-RU&load=package.standard,package.clusters" type="text/javascript"></script>
 
 <script type="text/javascript">
+<script type="text/javascript">
+var m,
+	p1,
+	p2;
 ymaps.ready(function () {
     var myMap = window.map = new ymaps.Map('YMapsID', {
-            center: [55.751574, 37.573856],
-            zoom: 9,
+            center: [50.440055, 30.504055],
+            zoom: 17,
             behaviors: ['default', 'scrollZoom']
         }),
-        myPlacemark2 = new ymaps.Placemark([55.76, 37.56], {
+       myPlacemark = new ymaps.Placemark([50.439558, 30.504855], {
             // Свойства.
             //hintContent: 'Собственный значок метки'
         }, {
             // Опции.
             // Своё изображение иконки метки.
+
+            iconImageHref: 'img/how_to_find_us_eng.png',
+            // Размеры метки.
+            iconImageSize: [490, 177],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-205, -182]
+        }),
+
+        myPlacemark2 = new ymaps.Placemark([50.439558, 30.504855], {
+            // Свойства.
+            //hintContent: 'Собственный значок метки'
+        }, {
+            // Опции.
+            // Своё изображение иконки метки.
+
             iconImageHref: 'img/how_to_find_us_ru.png',
             // Размеры метки.
             iconImageSize: [490, 177],
             // Смещение левого верхнего угла иконки относительно
             // её "ножки" (точки привязки).
-            iconImageOffset: [-245, -177]
+            iconImageOffset: [-205, -182]
         });
-
     // Добавляем все метки на карту.
-    myMap.geoObjects
-        .add(myPlacemark2)
+        //if(!l){myPlacemark2.iconImageHref="img/how_to_find_us_eng.png";}
+    m=myMap;
+    p1=myPlacemark;
+    p2=myPlacemark2;
+    if(l){
+    	myMap.geoObjects.add(myPlacemark2);
+    	myMap.geoObjects.remove(myPlacemark);
+    }
+    else{
+    	myMap.geoObjects.remove(myPlacemark2);
+    	myMap.geoObjects.add(myPlacemark);
+    }
+
 });
 </script>
 
