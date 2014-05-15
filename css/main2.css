@@ -103,7 +103,7 @@ table {
 
 .info-block{
   position:relative;
-  margin-left:50%;
+  margin-left:45%;
   display: inline-block;
   vertical-align: middle;
 }
@@ -135,6 +135,8 @@ table {
   width:496px;
   min-height:149px;
   margin-left: -25px;
+  position: absolute;
+  margin-top: -210px;
 }
 
 .info-block__pluses__img{

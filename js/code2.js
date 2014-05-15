@@ -4,12 +4,12 @@ $(document).ready(function(){
 
 	$('.info-block__plus-info').css( "display", "none");
 	$('#1PlusInfo').css( "display", "block");
-
+	$('.info-block__plus:nth-child(1)').css("margin-bottom","230px");
 	$('.info-block__plus').click( function(event)
 	{
-		id = event.target.id;
-		s = id[0] + "PlusInfo";
-
+		var id = event.target.id;
+		var i = id[0];
+		var s = i + "PlusInfo";
 		var img = new Image();
 		img.onload = function() 
 		{
@@ -21,10 +21,15 @@ $(document).ready(function(){
 		img.src = "img/" + id[0] + ".png";
 
 		if ($('#' + s).css( "display" ) == "block")
+		{
 			$('#' + s).css( "display", "none");
+			$('.info-block__plus').css("margin-bottom","20px");
+		}
 		else
 		{
 			$('.info-block__plus-info').css( "display", "none");
+			$('.info-block__plus').css("margin-bottom","20px");
+			$($(".info-block__plus")[i-1]).css("margin-bottom","230px");
 			$('#' + s).css( "display","block");
 		}
 	});
