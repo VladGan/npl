@@ -68,7 +68,7 @@ var l=true;
  		document.querySelector('.first_slide_content_h1').innerHTML="При этом";
  		document.querySelector('.first_slide_content_change_first_h1').innerHTML="<span>Экономим</span> до 30% корпоративного<br>бюджета на поездки";
  		document.querySelector('.first_slide_content_change_second_h1').innerHTML="<span>Знаем</span> все про перелеты, отели и визовую поддержку";
- 		document.querySelector('.first_slide_content_change_fourth_h1').innerHTML="<span>Обслуживаем</span> конференции по всему миру";
+ 		document.querySelector('.first_slide_content_change_fourth_h1').innerHTML="<span>Обслуживаем</span> конференции<br> по всему миру";
  		document.querySelector('.first_slide_content_change_fifth_h1').innerHTML="<span>Делимся</span> проверенными решениями с турагенствами";
 
  		//second slide
