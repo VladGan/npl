@@ -39,9 +39,11 @@
 <script type="text/javascript">
 var m,
 	p1,
-	p2;
+	p2,
+	fl=false;
 function makeMape(){	
 ymaps.ready(function () {
+	fl=true;
     var myMap = window.map = new ymaps.Map('YMapsID', {
             center: [50.440755, 30.504055],
             zoom: 16,
