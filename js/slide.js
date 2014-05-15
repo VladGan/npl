@@ -38,30 +38,5 @@ $(document).ready(function(){
 			//console.log("t="+t);
 		};
 	y=setInterval(waitSlogan, 10);
-	
-	/*second slide hover slogan*/
-	function sloganHover(){
-		var linkFirst = document.querySelector('.second_slide_txt_first');
-	  	linkFirst.onmouseover = function() {
-	    	document.querySelector('.second_slide_txt_first_hover').style.cssText = 'opacity: 1;';
-	  	}
-	  	linkFirst.onmouseout = function() {
-	    	document.querySelector('.second_slide_txt_first_hover').style.cssText = 'opacity: 0;';
-	  	}
-	  	var linkSecond = document.querySelector('.second_slide_txt_second');
-	  	linkSecond.onmouseover = function() {
-	    	document.querySelector('.second_slide_txt_second_hover').style.cssText = 'opacity: 1;';
-	  	}
-	  	linkSecond.onmouseout = function() {
-	    	document.querySelector('.second_slide_txt_second_hover').style.cssText = 'opacity: 0;';
-	  	}
-	  	var linkThird = document.querySelector('.second_slide_txt_third');
-	  	linkThird.onmouseover = function() {
-	    	document.querySelector('.second_slide_txt_third_hover').style.cssText = 'opacity: 1;';
-	  	}
-	  	linkThird.onmouseout = function() {
-	    	document.querySelector('.second_slide_txt_third_hover').style.cssText = 'opacity: 0;';
-	  	}
-	 }
-	 sloganHover();
+		 sloganHover();
 	});
