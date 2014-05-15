@@ -103,13 +103,13 @@ table {
   text-decoration: none;
 } 
 .menu_nav_ul li{
-  border-top: 2px solid #262626;
+  border-top: 2px solid  #202020;
   padding-left: 30px;
   padding-top: 12px;
   padding-bottom: 12px;
 }
 .menu_nav_ul_fifth_last{
-  border-bottom: 2px solid #262626;
+  border-bottom: 2px solid  #202020;
 }
 .active{
   font-weight: bold;
@@ -127,7 +127,7 @@ table {
 }
 .menu_block_down{
   position: absolute;
-  bottom: 20px;
+  bottom: 5%;
 }
 .menu_contact{
   border: 2px dashed #202020;
@@ -140,8 +140,8 @@ table {
   margin-left: 15px;
   padding-left: 13px;
   padding-right: 5px;
-  padding-bottom: 10px;
-  padding-top: 12px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 .menu_contact_tel,
 .menu_contact_mail{
@@ -150,21 +150,18 @@ table {
   font-size: 13px;
   color: #fff;
 }
-.menu_contact_tel{
-	padding-bottom: 9px;
-}
 .menu_contact_mail{
   text-decoration: underline;
 }
 .menu_contact_img{
-   padding-top: 3px;
+   padding-top: 10px;
 }
 .menu_contact_img img{
   margin-right: 9px;
   cursor: pointer;
 }
 .menu_name{
-  padding-top: 13px;
+  padding-top: 30px;
   font-family: "PT Sans";
   font-size: 13px;
   color: #fff;
@@ -191,7 +188,7 @@ table {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(45, 155, 196, .3);
+  background: rgba(34,121,181,.5);
   z-index: 2; 
 }
 .first_slide_bg{
@@ -231,11 +228,11 @@ table {
   padding-top: 20px;
 }
 .first_slide_content_change{
-   padding-left: 10px;
+   padding-left: 20px;
    position: relative;
    margin-top: -60px;
    margin-left: 234px;
-   border-left: 6px solid  #3cc4f6;
+   border-left: 6px solid  #2d99c3;
    padding-top: 10px;
    height: 90px;
    display: inline-block;
