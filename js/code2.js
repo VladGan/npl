@@ -34,7 +34,7 @@ $(document).ready(function(){
 		}
 		else
 		{
-			$('.img-wrapper').fadeIn(100);
+			$('.img-wrapper').fadeIn(50);
 			$('.info-block__plus-info').css( "display", "none");
 			$('.info-block__plus').animate({
 				'margin-bottom': 20
