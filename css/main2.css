@@ -226,7 +226,7 @@ table {
 .slider-block
 {
   position:relative;
-  width: 730px;
+  width: 700px;
   height: 450px;
   background-color: #67a8ce;
   border-radius: 10px;
@@ -245,7 +245,7 @@ table {
 }
 .slider-block__photo
 {
-  width: 91%;
+  width: 85%;
   height: 85%;
   display: inline-block;
   vertical-align: middle;
