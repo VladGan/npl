@@ -87,6 +87,7 @@ table {
   display: none;
 }
 .menu_logo{
+  cursor: pointer;
   width: 114px;
   overflow: hidden;
   padding-top: 50px;
@@ -127,7 +128,7 @@ table {
 }
 .menu_block_down{
   position: absolute;
-  bottom: 5%;
+  bottom: 20px;
 }
 .menu_contact{
   border: 2px dashed #202020;
@@ -140,8 +141,8 @@ table {
   margin-left: 15px;
   padding-left: 13px;
   padding-right: 5px;
-  padding-bottom: 15px;
-  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-top: 12px;
 }
 .menu_contact_tel,
 .menu_contact_mail{
@@ -150,18 +151,21 @@ table {
   font-size: 13px;
   color: #fff;
 }
+.menu_contact_tel{
+	padding-bottom: 9px;
+}
 .menu_contact_mail{
   text-decoration: underline;
 }
 .menu_contact_img{
-   padding-top: 10px;
+   padding-top: 3px;
 }
 .menu_contact_img img{
   margin-right: 9px;
   cursor: pointer;
 }
 .menu_name{
-  padding-top: 30px;
+  padding-top: 13px;
   font-family: "PT Sans";
   font-size: 13px;
   color: #fff;
