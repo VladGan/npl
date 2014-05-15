@@ -22,8 +22,13 @@ $(document).ready(function(){
 
 		if ($('#' + s).css( "display" ) == "block")
 		{
-			$('#' + s).css( "display", "none");
-			$('.info-block__plus').css("margin-bottom","20px");
+				$('#' + s).fadeOut( 100 );
+				setTimeout(function () {
+				$('.info-block__plus').animate({
+					'margin-bottom': 20
+				},200);
+						}, 100);
+
 		}
 		else
 		{
@@ -36,8 +41,10 @@ $(document).ready(function(){
 			},200);
 
 				setTimeout(function () {
-			$('#' + s).fadeIn( 200 );
+				$('#' + s).fadeIn( 200 );
+				$('#' + s).css("display","block");
 						}, 400);
+
 		}
 	});
 /* Funktionalität von den Slider Block*/
