@@ -40,6 +40,7 @@
 var m,
 	p1,
 	p2;
+function makeMape(){	
 ymaps.ready(function () {
     var myMap = window.map = new ymaps.Map('YMapsID', {
             center: [50.440755, 30.504055],
@@ -90,6 +91,7 @@ ymaps.ready(function () {
     }
 
 });
+}
 </script>
 
   
@@ -119,6 +121,10 @@ ymaps.ready(function () {
 		            	$('#section4').fullpage.setAllowScrolling(true);
 		  	    if(index == '1' || index == '2' || index == '3' || index == '4' || index == '5'){
                 		$("#YMapsID").css('display', 'block');
+                	    	if(index == '5'){
+		        		makeMape();
+               	            	}
+		        }
             		}
 		        }	
 			});
