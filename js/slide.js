@@ -5,13 +5,13 @@ var i=101,
 	u;
 function waitSlogan(){
 	u=document.querySelector('.first_slide_content_change_status').style.height=i+"px"; 
- 	if(i<0){
-       i=100;
+	if(i<=0){
+		changSlogan();
+		i=100;
     }
-    i-=0.285714;
+    i-=1/3;
 }
 function changSlogan(){
-	setInterval(function(){
 		if(t===1){
 			document.querySelector('.first_slide_content_change_first').style.cssText="display: block";
 	 		document.querySelector('.first_slide_content_change_fifth').style.cssText="display: none";
@@ -39,9 +39,9 @@ function changSlogan(){
 		}
 		i=0;
 		//console.log("t="+t);
-	},3500);
-	y=setInterval(waitSlogan, 10);
-}
+	};
+y=setInterval(waitSlogan, 10);
+
 
 /*second slide hover slogan*/
 function sloganHover(){
