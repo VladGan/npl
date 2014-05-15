@@ -465,7 +465,7 @@ table {
 }
 .info-block__plus-info
 {
-  border:3px dotted white;
+  border:3px dashed white;
   border-radius: 20px;
 }
 }
