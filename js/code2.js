@@ -23,15 +23,18 @@ $(document).ready(function(){
 		if ($('#' + s).css( "display" ) == "block")
 		{
 				$('#' + s).fadeOut( 100 );
+				$('.img-wrapper').fadeOut(100);
 				setTimeout(function () {
 				$('.info-block__plus').animate({
 					'margin-bottom': 20
 				},200);
 						}, 100);
 
+
 		}
 		else
 		{
+			$('.img-wrapper').fadeIn(100);
 			$('.info-block__plus-info').css( "display", "none");
 			$('.info-block__plus').animate({
 				'margin-bottom': 20
