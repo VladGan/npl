@@ -226,7 +226,7 @@ table {
 .slider-block
 {
   position:relative;
-  width: 607px;
+  width: 700px;
   height: 450px;
   background-color: #67a8ce;
   border-radius: 10px;
@@ -285,11 +285,11 @@ table {
 
 .slider-block__photo__img
 {
-  height:383px;
-  width:552px;
+  width:636px;
   display:inline-block;
   position: relative;
   float:left;
+  z-index: 100;
 }
 
 .slider-block__photo__img:nth-child(1)
@@ -386,7 +386,7 @@ table {
 {
   width:200px;
   height:10px;
-  top:-25px;
+  top:-90px;
   position: relative;
   margin: 0 auto;
   z-index: 100;

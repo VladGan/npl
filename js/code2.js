@@ -61,7 +61,7 @@ $(document).ready(function(){
 			allNavButtons: $(".slider-block__buttons__round")
 		},
 
-		timing: 800,
+		current: 0,
 
 		init: function()
 		{
@@ -82,12 +82,13 @@ $(document).ready(function(){
 		Id = el.id [0];
 
 
-		var $left = -(Id-1)*664;
-
+		var $left = -(Id-1)*636;
+		var x = 200 + 150 * Math.abs(this.current - Id);
+		this.current = Id;
 		$left = $left.toString() + "px";
 		$(".slider-block__photo__img").animate({
 			'left': $left
-		},this.timing);
+		},x);
 	}
 	};
 
