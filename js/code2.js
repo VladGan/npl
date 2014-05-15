@@ -78,8 +78,14 @@ $(document).ready(function(){
 
 		var Id = el.id;
 		$(".slider-block__buttons__round").css("background-color","transparent");
+		$(".slider-block__buttons__round").css("width","12px");
+		$(".slider-block__buttons__round").css("height","12px");
+		
 		$("#" + Id).css("background-color","white");
+		$("#" + Id).css("width","14px");
+		$("#" + Id).css("height","14px");
 		Id = el.id [0];
+
 
 
 		var $left = -(Id-1)*636;

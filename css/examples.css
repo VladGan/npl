@@ -446,7 +446,19 @@ table {
     padding-top: 10%;
   }
 
-}/*------------------------MAP---------------*/
+}
+
+
+@media(max-width: 1200px){
+  .first_slide_content{
+     margin-top: 0%;
+  }
+  .first_slide_titel_h1{
+    padding-top: 10%;
+  }
+
+}
+/*------------------------MAP---------------*/
 .fifth_slide{
   position: absolute;
   width: 100%;
