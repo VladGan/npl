@@ -82,7 +82,7 @@ $(document).ready(function(){
 		Id = el.id [0];
 
 
-		var $left = -(Id-1)*635;
+		var $left = -(Id-1)*636;
 		var x = 200 + 150 * Math.abs(this.current - Id);
 		this.current = Id;
 		$left = $left.toString() + "px";
