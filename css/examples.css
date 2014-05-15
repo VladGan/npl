@@ -449,14 +449,25 @@ table {
 }
 
 
-@media(max-width: 1200px){
-  .first_slide_content{
-     margin-top: 0%;
-  }
-  .first_slide_titel_h1{
-    padding-top: 10%;
-  }
+@media(max-width: 1270px){
 
+.img-wrapper
+{
+  display: none;
+}
+.info-block
+{
+  margin-left: 0;
+}
+.info-block__plus-info img
+{
+  display: none;
+}
+.info-block__plus-info
+{
+  border:3px dotted white;
+  border-radius: 20px;
+}
 }
 /*------------------------MAP---------------*/
 .fifth_slide{
