@@ -403,6 +403,7 @@ table {
     /*font-size: 18px;*/
     display: none;
   }
+}
 /*media height*/
 @media(max-height: 4000px){
   .first_slide_content{
