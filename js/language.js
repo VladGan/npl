@@ -128,4 +128,11 @@ var l=true;
 	  	linkThird.onmouseout = function() {
 	    	document.querySelector('.second_slide_txt_third_hover').style.cssText = 'opacity: 0;';
 	  	}
+	  	var linkFourth = document.querySelector('#map_arrow');
+	  	linkFourth.onmouseover = function() {
+	    	document.querySelector('#map_arrow').src = 'img/map_arrow.png';
+	  	}
+	  	linkFourth.onmouseout = function() {
+	    	document.querySelector('#map_arrow').src = "img/map_aim_hover.png";
+	  	}
 	 }
