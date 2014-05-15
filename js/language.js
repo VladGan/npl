@@ -16,7 +16,6 @@ var l=true;
  		document.querySelector('.first_slide_content_h1').innerHTML="In this";
  		document.querySelector('.first_slide_content_change_first_h1').innerHTML="<span> Saving</span> 30% of the corporate<br>travel budget";
  		document.querySelector('.first_slide_content_change_second_h1').innerHTML="<span> Know</span> all about flights, hotels and visa support";
- 		document.querySelector('.first_slide_content_change_third_h1').innerHTML="<span> Sending</span> exhibitions";
  		document.querySelector('.first_slide_content_change_fourth_h1').innerHTML="<span> We serve</span> conferences worldwide";
  		document.querySelector('.first_slide_content_change_fifth_h1').innerHTML="<span> Sharing</span> and tested solutions with travel agencies";
  		
@@ -65,7 +64,6 @@ var l=true;
  		document.querySelector('.first_slide_content_h1').innerHTML="При этом";
  		document.querySelector('.first_slide_content_change_first_h1').innerHTML="<span>Экономим</span> до 30% корпоративного<br>бюджета на поездки";
  		document.querySelector('.first_slide_content_change_second_h1').innerHTML="<span>Знаем</span> все про перелеты, отели и визовую поддержку";
- 		document.querySelector('.first_slide_content_change_third_h1').innerHTML="<span>Отправляем</span> на выставки";
  		document.querySelector('.first_slide_content_change_fourth_h1').innerHTML="<span>Обслуживаем</span> конференции по всему миру";
  		document.querySelector('.first_slide_content_change_fifth_h1').innerHTML="<span>Делимся</span> проверенными решениями с турагенствами";
 
