@@ -464,11 +464,8 @@ table {
 }
 #map_arrow{
   position: absolute;
-  height: 100px;
-  width: 300px;
-  background: #2d9bc4;
-  margin-top: 0%;
+  margin-top: 40px;
   z-index: 10000000;
   cursor: pointer;
-  left: 40%;
+  left: 55%;
 }
