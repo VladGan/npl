@@ -461,6 +461,7 @@ table {
   position: absolute;
   height: 100%;
   width: 100%;
+  display: none;
 }
 #map_arrow{
   position: absolute;
