@@ -299,11 +299,8 @@ table {
 }
 .second_slide_txt{
   font-family: "PT Sans";
-  font-size: 32px;
   color: #fff;
   width: 865px;
-  padding-left:27%;
-  padding-right: 27%;
   font-weight: normal;
 }
 .second_slide_txt h1{
@@ -334,7 +331,6 @@ table {
   border: none;
   font-weight: bold;
   font-family: "PT Sans";
-  font-size: 22px;
   font-weight: bold;
   color: #fff;
   position: relative;
@@ -377,6 +373,36 @@ table {
 .second_slide_txt_third_hover_trigle{
   margin-left: 320px;
 }
+@media(max-width: 3500px){
+  .second_slide_txt{
+      font-size: 32px;
+  }
+  .second_slide_txt{
+       padding-left:27%;
+       padding-right: 27%;  
+  }
+  .second_slide_txt_first_hover,
+  .second_slide_txt_second_hover,
+  .second_slide_txt_third_hover{
+    font-size: 22px;
+  }
+}
+@media(max-width: 1200px){
+  .second_slide_txt{
+      padding-left: 27%;
+      padding-right: 20%; 
+      width: 63%;
+  }
+  .second_slide_txt h1{
+      font-size: 30px;
+      padding-top: 13px;
+  }
+  .second_slide_txt_first_hover,
+  .second_slide_txt_second_hover,
+  .second_slide_txt_third_hover{
+    /*font-size: 18px;*/
+    display: none;
+  }
 /*media height*/
 @media(max-height: 4000px){
   .first_slide_content{
