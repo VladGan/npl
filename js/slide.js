@@ -41,11 +41,7 @@ function changSlogan(){
 		//console.log("t="+t);
 	};
 y=setInterval(waitSlogan, 10);
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 289f656ede545c2b16ce5406574be18ad500135d
 /*second slide hover slogan*/
 function sloganHover(){
 	var linkFirst = document.querySelector('.second_slide_txt_first');
