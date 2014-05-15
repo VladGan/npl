@@ -1,3 +1,8 @@
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,12 +23,15 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body{
   line-height: 1;
+  /*overflow: hidden;*/
 }
 ol, ul {
   list-style: none;
@@ -47,7 +55,11 @@ table {
 ::-mos-scrollbar { 
     display: none; 
 }
-
+@font-face {
+    font-family: PT Sans; 
+    src: local("PT_Sans-Web-Regular"), 
+         url("font/PT_Sans-Web-Regular.ttf"); 
+}
 
 /*----------------------------------------------menu----------------------------------------------*/
 #menu{
@@ -57,7 +69,9 @@ table {
   background-color: rgba(42,38,35,.9);
 	top:0;
 	left:0;
+	/*height: 40px;*/
 	z-index: 70;
+	/*width: 100%;*/
 	padding: 0;
 	margin:0;
 }
@@ -163,8 +177,9 @@ table {
   left: 220px;
   top: 148px;
 }
-	
 
+
+/*----------------------------------------------slide first----------------------------------------------*/
 .first_slide{
   position: absolute;
   width: 100%;
@@ -191,6 +206,8 @@ table {
   padding-left: 30%;
   padding-right: 15%;
   width: 55%;
+  min-height: 277px;
+  min-width: 683px;
 }
 .first_slide_titel_h1{
   font-family: "PT Sans";
@@ -223,6 +240,7 @@ table {
    border-left: 6px solid  #3cc4f6;
    padding-top: 10px;
    height: 90px;
+   display: inline-block;
 }
 .first_slide_content_change_status{
   position: absolute;
@@ -261,12 +279,11 @@ table {
   width: 100%;
   height: 100%;
    background: #2d9bc4; /* Old browsers */
-  background: -moz-radial-gradient(center, circle cover, #2d9bc4 0%, #072690 100%); /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#2d9bc4), color-stop(100%,#072690)); /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, circle cover, #2d9bc4 0%,#072690 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, circle cover, #2d9bc4 0%,#072690 100%); /* Opera 12+ */
-  background: -ms-radial-gradient(center, circle cover, #2d9bc4 0%,#072690 100%); /* IE10+ */
-  background: radial-gradient(circle at center, #2d9bc4 0%,#072690 100%); /* W3C */
+  background: -moz-radial-gradient(center, ellipse closest-side, #2d9bc4 50%, #072690 150%); /* FF3.6+ */
+  background: -webkit-radial-gradient(center, ellipse closest-side, #2d9bc4 50%,#072690 150%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse closest-side, #2d9bc4 50%,#072690 150%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse closest-side, #2d9bc4 50%,#072690 150%); /* IE10+ */
+  background: radial-gradient(center, ellipse closest-side, #2d9bc4 50%,#072690 150%); /* W3C */
   top: 0px;
   left: 0px;
   overflow: hidden;
@@ -308,8 +325,6 @@ table {
   font-weight: bold;
   border-bottom: #fff dotted 2px;
   cursor: pointer;
-  font-family: PT sans;
-  font-weight: normal;
 }
 .second_slide_txt_first_hover,
 .second_slide_txt_second_hover,
@@ -362,20 +377,17 @@ table {
 }
 /*media height*/
 @media(max-height: 4000px){
-
   .first_slide_content{
      margin-top: 17%;
   }
   .second_slide_txt{
     margin-top: 17%;
   }
-
-   .first_slide_titel_h1{
+  .first_slide_titel_h1{
     padding-top: 221px;
   }
 }
 @media(max-height: 1500px){
-
  .first_slide_content{
      margin-top: 14%;
   }
@@ -384,7 +396,6 @@ table {
   }
 }
 @media(max-height: 900px){
-
  .first_slide_content{
      margin-top: 13%;
   }
@@ -393,36 +404,45 @@ table {
   }
 }
 @media(max-height: 800px){
-
   .first_slide_content{
      margin-top: 11%;
   }
-
  .second_slide_txt{
     margin-top: 12%;
   }
-  .first_slide_titel_h1{
-    padding-top: 20%;
-  }
 }
 @media(max-height: 750px){
-
  .first_slide_content{
      margin-top: 7%;
   }
   .second_slide_txt{
     margin-top: 10%;
   }
+  .first_slide_titel_h1{
+    padding-top: 28%;
+  }
+}
 @media(max-height: 700px){
-
+  /*.menu_contact{
+    margin-top: 35%;
+  }*/
   .first_slide_content{
-     margin-top: 5%;
+     margin-top: 4%;
+  }
+  .first_slide_titel_h1{
+    padding-top: 23%;
   }
   .second_slide_txt{
     margin-top: 8%;
   }
 }
-@media(max-height: 680px){
+@media(max-height: 600px){
+  .first_slide_content{
+     margin-top: 0%;
+  }
+  .first_slide_titel_h1{
+    padding-top: 10%;
+  }
 
 }/*------------------------MAP---------------*/
 .fifth_slide{
@@ -433,17 +453,25 @@ table {
   left: 0px;
   overflow: hidden;
   background: #2d9bc4; /* Old browsers */
-  background: -moz-radial-gradient(center, circle cover, #2d9bc4 0%, #072690 100%); /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#2d9bc4), color-stop(100%,#072690)); /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, circle cover, #2d9bc4 0%,#072690 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, circle cover, #2d9bc4 0%,#072690 100%); /* Opera 12+ */
-  background: -ms-radial-gradient(center, circle cover, #2d9bc4 0%,#072690 100%); /* IE10+ */
-  background: radial-gradient(circle at center, #2d9bc4 0%,#072690 100%); /* W3C */
+  background: -moz-radial-gradient(center, circle, #2d9bc4 50%, #072690 150%); /* FF3.6+ */
+  background: -webkit-radial-gradient(circle farthest-side at  0px 20px, #2d9bc4 0%,#072690 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, circle #2d9bc4 50%,#072690 150%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, circle #2d9bc4 50%,#072690 150%); /* IE10+ */
+  background: radial-gradient(center, circle #2d9bc4 50%,#072690 150%); /* W3C */
   top: 0px;
 }
 #YMapsID{
   position: absolute;
-  /*left: 0px;*/
   height: 100%;
   width: 100%;
+}
+#map_arrow{
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  background: #2d9bc4;
+  margin-top: 0%;
+  z-index: 10000000;
+  cursor: pointer;
+  left: 40%;
 }
