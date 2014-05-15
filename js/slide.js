@@ -8,7 +8,7 @@ function waitSlogan(){
  	if(i<0){
        i=100;
     }
-    i-=0.285714;
+    i-=0.255;
 }
 function changSlogan(){
 	setInterval(function(){
@@ -39,7 +39,7 @@ function changSlogan(){
 		}
 		i=0;
 		//console.log("t="+t);
-	},3500);
+	},4100);
 	y=setInterval(waitSlogan, 10);
 }
 
