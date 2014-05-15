@@ -240,6 +240,7 @@ table {
    padding-top: 10px;
    height: 90px;
    display: inline-block;
+    min-width: 500px;
 }
 .first_slide_content_change_status{
   position: absolute;
