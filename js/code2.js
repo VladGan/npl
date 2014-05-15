@@ -28,9 +28,16 @@ $(document).ready(function(){
 		else
 		{
 			$('.info-block__plus-info').css( "display", "none");
-			$('.info-block__plus').css("margin-bottom","20px");
-			$($(".info-block__plus")[i-1]).css("margin-bottom","230px");
-			$('#' + s).css( "display","block");
+			$('.info-block__plus').animate({
+				'margin-bottom': 20
+			},200);
+			$($(".info-block__plus")[i-1]).animate({
+				'margin-bottom': 230
+			},200);
+
+				setTimeout(function () {
+			$('#' + s).fadeIn( 200 );
+						}, 400);
 		}
 	});
 /* Funktionalität von den Slider Block*/
