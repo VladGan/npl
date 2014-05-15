@@ -14,39 +14,39 @@ var l=true;
  		 //first slide
  		document.querySelector('.first_slide_titel_h1').innerHTML="We organize business travel";
  		document.querySelector('.first_slide_content_h1').innerHTML="In this";
- 		document.querySelector('.first_slide_content_change_first_h1').innerHTML="<span> Saving</span> 30% of the corporate<br>travel budget";
- 		document.querySelector('.first_slide_content_change_second_h1').innerHTML="<span> Know</span> all about flights, hotels and visa support";
- 		document.querySelector('.first_slide_content_change_fourth_h1').innerHTML="<span> We serve</span> conferences worldwide";
- 		document.querySelector('.first_slide_content_change_fifth_h1').innerHTML="<span> Sharing</span> and tested solutions with travel agencies";
+ 		document.querySelector('.first_slide_content_change_first_h1').innerHTML="We can <span>saving</span> you up to 30% of the corporate trip budget";
+ 		document.querySelector('.first_slide_content_change_second_h1').innerHTML="We <span>know</span> everything about flights, hotels and visa requirements ";
+ 		document.querySelector('.first_slide_content_change_fourth_h1').innerHTML="<span>Maintain</span> conferences all over the world";
+ 		document.querySelector('.first_slide_content_change_fifth_h1').innerHTML="We<span>sharing</span>  well-tried solutions with tour agencies";
  		
  		//second slide
- 		document.querySelector('.second_slide_txt').children[1].innerHTML='If you <span class="second_slide_txt_first">successful</span> company, and you have a business around the world, we will help you and your staff to focus on business during business trips.';
- 		document.querySelector('.second_slide_txt_first_hover').children[0].innerHTML="We only work with successful";
- 		document.querySelector('.second_slide_txt').children[3].innerHTML='<span class="second_slide_txt_second">Self</span> take flights, hotels, insurance, transfers and tables in the restaurant.';
- 		document.querySelector('.second_slide_txt_second_hover').children[0].innerHTML="Our team organizes everything from your door to your office it is";
- 		document.querySelector('.second_slide_txt').children[5].innerHTML='We do what we <span class="second_slide_txt_third">like</span>, you - so that you do.';
- 		document.querySelector('.second_slide_txt_third_hover').children[0].innerHTML="Sure differently to achieve serious results";
+ 		document.querySelector('.second_slide_txt').children[1].innerHTML='If you are a <span class="second_slide_txt_first">successful</span>  company, and you have business all over the world, we can help you and your employees to focus entirely on business on your business trips';
+ 		document.querySelector('.second_slide_txt_first_hover').children[0].innerHTML="We work only with successful companies";
+ 		document.querySelector('.second_slide_txt').children[3].innerHTML='<span class="second_slide_txt_second">We</span> will deal with flights, hotels, insurances, transfers and restaurant reservations.';
+ 		document.querySelector('.second_slide_txt_second_hover').children[0].innerHTML="Our team can make all the arrangements: starting from your office door, and back to it. ";
+ 		document.querySelector('.second_slide_txt').children[5].innerHTML='We do what we <span class="second_slide_txt_third">like</span>, you do what you like.';
+ 		document.querySelector('.second_slide_txt_third_hover').children[0].innerHTML="We are confident that otherwise there will be no successful results. ";
  		sloganHover();
- 		//second slode posiiton
- 		document.querySelector('.second_slide_txt_first_hover').children[0].style.cssText="margin-left: -30px;";
- 		document.querySelector('.second_slide_txt_second_hover').children[0].style.cssText="margin-left: -5px;";
+  		//second slode posiiton
+ 		document.querySelector('.second_slide_txt_first_hover').children[0].style.cssText="margin-left: 40px;";
+ 		document.querySelector('.second_slide_txt_second_hover').children[0].style.cssText="margin-left: 0px;";
  		document.querySelector('.second_slide_txt_third_hover').children[0].style.cssText="margin-left: -100px;";
   		//trigle
- 		document.querySelector('.second_slide_txt_first_hover').children[1].style.cssText="margin-left: 100px;";
- 		document.querySelector('.second_slide_txt_second_hover').children[1].style.cssText="margin-left: 20px;";
+ 		document.querySelector('.second_slide_txt_first_hover').children[1].style.cssText="margin-left: 160px;";
+ 		document.querySelector('.second_slide_txt_second_hover').children[1].style.cssText="margin-left: 18px;";
  		document.querySelector('.second_slide_txt_third_hover').children[1].style.cssText="margin-left: 90px;";
-
+ 		
  		//third slide
- 		document.getElementById("1Plus").innerHTML="Personal Manager  ";
- 		document.getElementById("2Plus").innerHTML="High technology   ";
-		document.getElementById("3Plus").innerHTML="Your travel CRM  ";
-		document.getElementById("1PlusInfo").children[1].innerHTML="You will have a personal manager, available 24/7 and solve all possible travel issues. This is the basis of our product and our pride.";
-		document.getElementById("2PlusInfo").children[1].innerHTML="Of course, not without it. We are looking for tickets at 3 locations in the world (which is rare), it allows you to see almost all the airlines and find the most convenient connections and prices.";
-		document.getElementById("3PlusInfo").children[1].innerHTML="Now you can see the whole picture of your business trips in one program. Moreover, it is comfortable and functional.";
+ 		document.getElementById("1Plus").innerHTML="Personal Manager";
+ 		document.getElementById("2Plus").innerHTML="High technology";
+		document.getElementById("3Plus").innerHTML="Your travel CRM";
+		document.getElementById("1PlusInfo").children[1].innerHTML="You will have a personal manager available 24/7, dealing with all the possible travel issues. It is the foundation of our business, and we are proud of it. ";
+		document.getElementById("2PlusInfo").children[1].innerHTML="Of course, it cannot be left out. We look for tickets using 3 locations around the world. It allows us to see almost all the airlines and to find the most suitable transfers, prices. ";
+		document.getElementById("3PlusInfo").children[1].innerHTML="Now you can see the entire picture of your company’s trip in one computer program. Moreover, it is functional and user friendly.";
 	
 		
  		//fourth slide
- 		document.querySelector('.slogan__text').innerHTML="We like to travel and business. We tuned in and can always give great recommendations. All we are professionals and friendly team.";
+ 		document.querySelector('.slogan__text').innerHTML="We love business and travel. We stay current on tendencies and can always give you a topnotch advice. We are a very friendly team of professionals.";
  		l=false;
  	}
  	else{
