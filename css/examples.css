@@ -219,7 +219,6 @@ table {
   font-weight: bold;
   color: #fff;
   text-align: center;
-  padding-top: 221px;
 }
 .first_slide_content{
   padding-left: 36%;
@@ -404,6 +403,9 @@ table {
   .second_slide_txt_third_hover{
     width: 630px;
   }*/
+   .first_slide_titel_h1{
+    padding-top: 221px;
+  }
 }
 @media(max-height: 1500px){
   /*.menu_contact{
@@ -439,6 +441,9 @@ table {
   }*/
  .second_slide_txt{
     margin-top: 12%;
+  }
+  .first_slide_titel_h1{
+    padding-top: 20%;
   }
 }
 @media(max-height: 750px){
