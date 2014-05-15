@@ -22,17 +22,13 @@ function changSlogan(){
 	 		document.querySelector('.first_slide_content_change_first').style.cssText="display: none";
 	 		t++;
 		}
+
 		else if(t===3){
-			document.querySelector('.first_slide_content_change_third').style.cssText="display: block";
+			document.querySelector('.first_slide_content_change_fourth').style.cssText="display: block";
 	 		document.querySelector('.first_slide_content_change_second').style.cssText="display: none";
 	 		t++;
 		}
 		else if(t===4){
-			document.querySelector('.first_slide_content_change_fourth').style.cssText="display: block";
-	 		document.querySelector('.first_slide_content_change_third').style.cssText="display: none";
-	 		t++;
-		}
-		else if(t===5){
 			document.querySelector('.first_slide_content_change_fifth').style.cssText="display: block";
 	 		document.querySelector('.first_slide_content_change_fourth').style.cssText="display: none";
 	 		t=1;
