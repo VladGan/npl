@@ -47,6 +47,10 @@ var l=true;
 		
  		//fourth slide
  		document.querySelector('.slogan__text').innerHTML="We love business and travel. We stay current on tendencies and can always give you a topnotch advice. We are a very friendly team of professionals.";
+ 	
+ 		m.geoObjects.add(p1);
+    		m.geoObjects.remove(p2);
+    		
  		l=false;
  	}
  	else{
@@ -94,6 +98,10 @@ var l=true;
 	
  		//fourth slide
  		document.querySelector('.slogan__text').innerHTML="Нам нравится бизнес и путешествия. Мы в курсе событий и всегда можем дать классные рекомендации. Все мы профессионалы и дружная команда.";
+ 		
+ 		m.geoObjects.add(p2);
+    		m.geoObjects.remove(p1);
+ 		
  		l=true;
  	}
  }   
