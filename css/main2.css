@@ -167,48 +167,6 @@ table {
     width:35px;
     display: inline;
 }
-
-.top-sticks-left img
-{
-    behavior:url(-ms-transform.htc);    /* Firefox */
-    -moz-transform:rotate(-90deg);    /* Safari and Chrome */
-    -webkit-transform:rotate(-90deg);    /* Opera */
-    -o-transform:rotate(-90deg);    /* IE9 */
-    -ms-transform:rotate(-90deg);    /* IE6,IE7 */
-    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476);    /* IE8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)"; 
-}
-.top-sticks-right img
-{
-    behavior:url(-ms-transform.htc);    /* Firefox */
-    -moz-transform:rotate(-180deg);    /* Safari and Chrome */
-    -webkit-transform:rotate(-180deg);    /* Opera */
-    -o-transform:rotate(-180deg);    /* IE9 */
-    -ms-transform:rotate(-180deg);    /* IE6,IE7 */
-    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476);    /* IE8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)"; 
-}
-.bot-sticks-left img
-{
-    behavior:url(-ms-transform.htc);    /* Firefox */
-    -moz-transform:rotate(-180deg);    /* Safari and Chrome */
-    -webkit-transform:rotate(-180deg);    /* Opera */
-    -o-transform:rotate(-180deg);    /* IE9 */
-    -ms-transform:rotate(-180deg);    /* IE6,IE7 */
-    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476);    /* IE8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)"; 
-}
-.bot-sticks-right img
-{
-    behavior:url(-ms-transform.htc);    /* Firefox */
-    -moz-transform:rotate(-90deg);    /* Safari and Chrome */
-    -webkit-transform:rotate(-90deg);    /* Opera */
-    -o-transform:rotate(-90deg);    /* IE9 */
-    -ms-transform:rotate(-90deg);    /* IE6,IE7 */
-    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476);    /* IE8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)"; 
-}
-
 .slider-block__photo__img
 {
   height:383px;
