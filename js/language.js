@@ -6,7 +6,7 @@
 
  		//menu text
  		document.querySelector('.menu_nav_ul_first').innerHTML="Main";
- 		document.querySelector('.menu_nav_ul_second').innerHTML="How we can help";
+ 		document.querySelector('.menu_nav_ul_second').innerHTML="How can we help";
  		document.querySelector('.menu_nav_ul_third').innerHTML="Our advantages";
  		document.querySelector('.menu_nav_ul_fourth').innerHTML="Our team";
  		document.querySelector('.menu_nav_ul_fifth').innerHTML="How to find us";
