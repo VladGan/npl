@@ -12,7 +12,7 @@ var l=true;
  		document.querySelector('.menu_nav_ul_fifth').innerHTML="How to find us";
 
  		 //first slide
- 		document.querySelector('.first_slide_titel_h1').innerHTML="We organize business travel";
+ 		document.querySelector('.first_slide_titel_h1').innerHTML="We organize<br> business travel";
  		document.querySelector('.first_slide_content_h1').innerHTML="In this";
  		document.querySelector('.first_slide_content_h1').style.cssText="position: relative; margin-left: 15px;";
  		document.querySelector('.first_slide_content_change_first_h1').innerHTML="We can <span>saving</span> you up to 30%<br> of the corporate trip budget";
