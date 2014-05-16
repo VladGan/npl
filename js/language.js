@@ -15,10 +15,10 @@ var l=true;
  		document.querySelector('.first_slide_titel_h1').innerHTML="We organize<br> business travel";
  		document.querySelector('.first_slide_content_h1').innerHTML="In this";
  		document.querySelector('.first_slide_content_h1').style.cssText="position: relative; margin-left: 15px;";
- 		document.querySelector('.first_slide_content_change_first_h1').innerHTML="We can <span>saving</span> you up to 30%<br> of the corporate trip budget";
+ 		document.querySelector('.first_slide_content_change_first_h1').innerHTML="We can <span>save</span> you up to 30%<br> of the corporate trip budget";
  		document.querySelector('.first_slide_content_change_second_h1').innerHTML="We <span>know</span> everything about flights, hotels and visa requirements ";
  		document.querySelector('.first_slide_content_change_fourth_h1').innerHTML="<span>Maintain</span> conferences<br> all over the world";
- 		document.querySelector('.first_slide_content_change_fifth_h1').innerHTML="We<span>sharing</span>  well-tried<br> solutions with tour agencies";
+ 		document.querySelector('.first_slide_content_change_fifth_h1').innerHTML="We <span>sharing</span>  well-tried<br> solutions with tour agencies";
  		
  		//second slide
  		document.querySelector('.second_slide_txt').children[1].innerHTML='If you are a <span class="second_slide_txt_first">successful</span>  company, and you have business all over the world, we can help you and your employees to focus entirely on business on your business trips';
