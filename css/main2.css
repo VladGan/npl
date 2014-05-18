@@ -1003,12 +1003,7 @@ table {
   position:relative;
   opacity:0;
   cursor: default;
-}
-
-.second_slide_txt_first_hover,
-.second_slide_txt_second_hover,
-.second_slide_txt_third_hover {
-  font-size:22px;
+    font-size:22px;
   margin-bottom: 15px; 
 }
 
@@ -1133,6 +1128,9 @@ table {
   {height: 23px;}
   .second_slide_txt_second_hover 
   {height: 23px;}
+  .second_slide_txt_third_hover 
+  {height: 33px;margin-bottom: 30px;}
+
 
 	.second_slide_txt_first_hover_trigle 
 	{margin-left:85px;}
@@ -1140,13 +1138,6 @@ table {
 	{margin-left:10px;}
 	.second_slide_txt_third_hover_trigle 
 	{margin-left:200px;
-}
-}
-
-.second_slide_txt_third_hover {
-  margin-left:150px;
-  height: 33px;
-  margin-bottom: 30px;
 }
 
 }
