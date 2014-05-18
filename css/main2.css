@@ -390,7 +390,7 @@ table {
   min-height:149px;
   margin-left:-25px;
   position:absolute;
-  margin-top:-210px;
+  margin-top:-250px;
 }
 
 .info-block__pluses__img {
@@ -1115,7 +1115,7 @@ table {
   .info-block__plus-info {
     border:2px dashed white;
     border-radius:20px;
-    left:-50px;
+    width: 410px;
   }
   .second_slide_txt
   {
