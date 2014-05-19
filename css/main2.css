@@ -847,7 +847,7 @@ table {
   font-weight:bold;
   color:#fff;
   text-align:center;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .first_slide_content {
@@ -1006,21 +1006,21 @@ table {
   opacity:0;
   cursor: default;
     font-size:22px;
-  margin-bottom: 15px; 
+  margin-bottom: 18px; 
 }
 
 .second_slide_txt_first_hover {
   margin-left:50px;
-  height: 25px;
+  height: 28px;
 }
 
 .second_slide_txt_second_hover {
-  height: 25px;
+  height: 28px;
 }
 
 .second_slide_txt_third_hover {
   margin-left:150px;
-  height: 25px;
+  height: 28px;
 }
 
 .second_slide_txt_first_hover_trigle,
@@ -1046,6 +1046,13 @@ table {
 .second_slide_txt_third_hover_trigle {
 	margin-left:300px;
 }
+.eng1
+{margin-left:140px!important;}
+.eng2
+{margin-left:-5px!important}
+.eng3
+{margin-left:60px!important}
+
 
 @media(max-width:1270px) {
   .img-wrapper {
@@ -1070,20 +1077,42 @@ table {
   .second_slide_txt_first_hover span, .second_slide_txt_second_hover span, .second_slide_txt_third_hover span
   {font-size: 18px;}
   .second_slide_txt_first_hover 
-  {height: 23px;}
+  {height: 25px;}
   .second_slide_txt_second_hover 
-  {height: 23px;}
+  {height: 25px;}
   .second_slide_txt_third_hover 
-  {height: 33px;margin-bottom: 30px;}
+  {height: 35px;margin-bottom: 27px;}
 
+  .eng1_height{height: 25px;}
+  .eng2_height{height: 35px;margin-bottom: 30px;}
+  .eng3_height{height: 35px;margin-bottom: 30px;}
+
+	.eng1{margin-left:85px!important;}
+	.eng2{margin-left:-10px!important}
+	.eng3{margin-left:5px!important}
 
 	.second_slide_txt_first_hover_trigle 
 	{margin-left:85px;}
 	.second_slide_txt_second_hover_trigle 
 	{margin-left:10px;}
 	.second_slide_txt_third_hover_trigle 
-	{margin-left:200px;
-}
+	{margin-left:200px;}
+
+	.first_slide_titel_h1{
+		font-size: 60px;
+	}
+	.first_slide_content_h1{
+		font-size: 25px;
+	}
+	.first_slide_content_change_first_h1, .first_slide_content_change_second_h1 ,
+	.first_slide_content_change_fourth_h1,.first_slide_content_change_fifth_h1{
+		font-size: 24px;
+	}
+
+	.first_slide_content_change_first_h1 span, .first_slide_content_change_second_h1 span,
+	.first_slide_content_change_fourth_h1 span,.first_slide_content_change_fifth_h1 span{
+		font-size: 27px;
+	}
 
 }
 
