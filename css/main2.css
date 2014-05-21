@@ -841,6 +841,26 @@ table {
   min-height:277px;
   min-width:683px;
 }
+.first_slide_center{
+  width:100%;
+  height:100%;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.first_slide_center:before{
+  content:'';
+  display:inline-block;
+  height:100%;
+  vertical-align:middle;
+  margin-right:-0.25em;
+}
+.first_slide_center_content{
+  position:relative;
+  width:  100%;
+  display:inline-block;
+  vertical-align:middle;
+}
 
 .first_slide_titel_h1 {
   font-family:"PT Sans";
@@ -848,14 +868,12 @@ table {
   font-weight:bold;
   color:#fff;
   text-align:center;
-  margin-top: 15%;
 }
 
 .first_slide_content {
   padding-left:36%;
   padding-right:11%;
   width:53%;
-  margin-top: 5%;
 }
 
 .first_slide_content_h1 {
