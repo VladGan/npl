@@ -61,7 +61,7 @@ function changeLanguage() {
         document.querySelector(".second_slide_txt").children[1].innerHTML = 'Если вы <span class="second_slide_txt_first">успешная</span> компания, и у вас есть дела по всему миру, мы поможем вам и вашим сотрудникам сфокусироваться на бизнесе во время деловых поездок.';
         document.querySelector(".second_slide_txt_first_hover").children[0].innerHTML = "Мы работаем только с успешными";
         document.querySelector(".second_slide_txt").children[3].innerHTML = '<span class="second_slide_txt_second">На себя</span> берем перелеты, отели, страховки, трансферы и столики в ресторана.';
-        document.querySelector(".second_slide_txt_second_hover").children[0].innerHTML = "Наша команда организует все: от двери вашего вашего офиса до нее же";
+        document.querySelector(".second_slide_txt_second_hover").children[0].innerHTML = "Наша команда организует все: от двери вашего вашего офиса до неё же";
         document.querySelector(".second_slide_txt").children[5].innerHTML = 'Мы занимаемся тем, что нам <span class="second_slide_txt_third">нравится</span>, вы — тем, что вам.';
         document.querySelector(".second_slide_txt_third_hover").children[0].innerHTML = "Уверены, что по-другому серьезных результатов не достичь";
         sloganHover();
