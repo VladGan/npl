@@ -2,11 +2,11 @@ function changeLanguage() {
     if (l) {
         document.querySelector(".menu_language_eng").style.cssText = "display: none";
         document.querySelector(".menu_language_rus").style.cssText = "display: block";
-        document.querySelector(".menu_nav_ul_first").innerHTML = "Main";
+        document.querySelector("#menu_nav_ul_first").innerHTML = "Main";
         document.querySelector(".menu_nav_ul_second").innerHTML = "How can we help";
         document.querySelector(".menu_nav_ul_third").innerHTML = "Our advantages";
         document.querySelector(".menu_nav_ul_fourth").innerHTML = "Our team";
-        document.querySelector(".menu_nav_ul_fifth").innerHTML = "How to find us";
+        document.querySelector(".menu_nav_ul_fifth_last").innerHTML = "How to find us";
         document.querySelector(".first_slide_titel_h1").innerHTML = "We organize<br> business travel";
         document.querySelector(".first_slide_content_h1").innerHTML = "While";
         document.querySelector(".first_slide_content_h1").style.cssText = "position: relative; margin-left: 15px;";
@@ -46,11 +46,11 @@ function changeLanguage() {
     } else {
         document.querySelector(".menu_language_eng").style.cssText = "display: block";
         document.querySelector(".menu_language_rus").style.cssText = "display: none";
-        document.querySelector(".menu_nav_ul_first").innerHTML = "Главная";
+        document.querySelector("#menu_nav_ul_first").innerHTML = "Главная";
         document.querySelector(".menu_nav_ul_second").innerHTML = "Чем мы можем помочь";
         document.querySelector(".menu_nav_ul_third").innerHTML = "Наши плюсы";
         document.querySelector(".menu_nav_ul_fourth").innerHTML = "Наша команда";
-        document.querySelector(".menu_nav_ul_fifth").innerHTML = "Как нас найти";
+        document.querySelector(".menu_nav_ul_fifth_last").innerHTML = "Как нас найти";
         document.querySelector(".first_slide_titel_h1").innerHTML = "Мы организовываем  деловые путешествия";
         document.querySelector(".first_slide_content_h1").innerHTML = "При этом";
         document.querySelector(".first_slide_content_h1").style.cssText = "margin-left: 0px;";
@@ -61,7 +61,7 @@ function changeLanguage() {
         document.querySelector(".second_slide_txt").children[1].innerHTML = 'Если вы <span class="second_slide_txt_first">успешная</span> компания, и у вас есть дела по всему миру, мы поможем вам и вашим сотрудникам сфокусироваться на бизнесе во время деловых поездок.';
         document.querySelector(".second_slide_txt_first_hover").children[0].innerHTML = "Мы работаем только с успешными";
         document.querySelector(".second_slide_txt").children[3].innerHTML = '<span class="second_slide_txt_second">На себя</span> берем перелеты, отели, страховки, трансферы и столики в ресторана.';
-        document.querySelector(".second_slide_txt_second_hover").children[0].innerHTML = "Наша команда организует все: от двери вашего вашего офиса до неё же";
+        document.querySelector(".second_slide_txt_second_hover").children[0].innerHTML = "Наша команда организует все: от двери вашего вашего офиса до нее же";
         document.querySelector(".second_slide_txt").children[5].innerHTML = 'Мы занимаемся тем, что нам <span class="second_slide_txt_third">нравится</span>, вы — тем, что вам.';
         document.querySelector(".second_slide_txt_third_hover").children[0].innerHTML = "Уверены, что по-другому серьезных результатов не достичь";
         sloganHover();
@@ -102,21 +102,27 @@ function sloganHover() {
         document.querySelector(".second_slide_txt_first_hover").style.cssText = "opacity: 1;"
     };
     e.onmouseout = function () {
-        document.querySelector(".second_slide_txt_first_hover").style.cssText = "opacity: 0;"
+        setTimeout(function(){
+            document.querySelector(".second_slide_txt_first_hover").style.cssText = "opacity: 0;"
+        }, 700);
     };
     var t = document.querySelector(".second_slide_txt_second");
     t.onmouseover = function () {
         document.querySelector(".second_slide_txt_second_hover").style.cssText = "opacity: 1;"
     };
     t.onmouseout = function () {
-        document.querySelector(".second_slide_txt_second_hover").style.cssText = "opacity: 0;"
+        setTimeout(function(){
+            document.querySelector(".second_slide_txt_second_hover").style.cssText = "opacity: 0;"
+        }, 700);
     };
     var n = document.querySelector(".second_slide_txt_third");
     n.onmouseover = function () {
         document.querySelector(".second_slide_txt_third_hover").style.cssText = "opacity: 1;"
     };
     n.onmouseout = function () {
-        document.querySelector(".second_slide_txt_third_hover").style.cssText = "opacity: 0;"
+        setTimeout(function(){
+            document.querySelector(".second_slide_txt_third_hover").style.cssText = "opacity: 0;"
+        }, 700);
     };
     var r = document.querySelector("#map_arrow");
     r.onmouseover = function () {
