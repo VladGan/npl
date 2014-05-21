@@ -402,6 +402,7 @@ table {
   display:inline-block;
   vertical-align:middle;
   height:289px;
+  width: 0px;
 }
 
 .img-wrapper td {

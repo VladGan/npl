@@ -40,7 +40,15 @@ $(document).ready(function () {
         i.onload = function () {
             $(".img-wrapper").css("height", this.height + "px!important");
             $(".info-block__pluses__img").attr("src", "img/" + t[0] + ".png");
-            $(".info-block__pluses__img").css("left", 500 - this.height / 2 ^ 2 + "px")
+
+            if (t[0] == "1")
+                $(".info-block__pluses__img").css("left", "25%");
+
+            if (t[0] == "2")
+                $(".info-block__pluses__img").css("left", "22%")
+
+            if (t[0] == "3")
+                $(".info-block__pluses__img").css("left", "25%")
         };
 
 
