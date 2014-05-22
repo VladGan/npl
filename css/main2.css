@@ -534,7 +534,7 @@ table {
 
 .slider-block__photo__img {
   width:636px;
-  display:none;
+  display:inline-block;
   position:relative;
   float:left;
   z-index:100;
