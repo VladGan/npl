@@ -391,6 +391,9 @@ table {
   margin-left:-25px;
   position:absolute;
   margin-top:-250px;
+
+  border: 2px dashed white;
+  border-radius: 20px;
 }
 
 .info-block__pluses__img {
