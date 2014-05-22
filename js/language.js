@@ -102,27 +102,30 @@ function sloganHover() {
         document.querySelector(".second_slide_txt_first_hover").style.cssText = "opacity: 1;"
     };
     e.onmouseout = function () {
+        document.querySelector(".second_slide_txt_first_hover").style.cssText="-webkit-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); -moz-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); -o-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); -webkit-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); -moz-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); -o-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); ";
         setTimeout(function(){
             document.querySelector(".second_slide_txt_first_hover").style.cssText = "opacity: 0;"
-        }, 700);
+        }, 305);
     };
     var t = document.querySelector(".second_slide_txt_second");
     t.onmouseover = function () {
         document.querySelector(".second_slide_txt_second_hover").style.cssText = "opacity: 1;"
     };
     t.onmouseout = function () {
+        document.querySelector(".second_slide_txt_second_hover").style.cssText="-webkit-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); -moz-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); -o-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); -webkit-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); -moz-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); -o-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); ";
         setTimeout(function(){
             document.querySelector(".second_slide_txt_second_hover").style.cssText = "opacity: 0;"
-        }, 700);
+        }, 305);
     };
     var n = document.querySelector(".second_slide_txt_third");
     n.onmouseover = function () {
         document.querySelector(".second_slide_txt_third_hover").style.cssText = "opacity: 1;"
     };
     n.onmouseout = function () {
+        document.querySelector(".second_slide_txt_third_hover").style.cssText="-webkit-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); -moz-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); -o-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); -webkit-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); -moz-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); -o-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); ";
         setTimeout(function(){
             document.querySelector(".second_slide_txt_third_hover").style.cssText = "opacity: 0;"
-        }, 700);
+        }, 305);
     };
     var r = document.querySelector("#map_arrow");
     r.onmouseover = function () {
