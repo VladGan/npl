@@ -180,6 +180,7 @@ table {
   display:inline-block;
   position:relative;
   float:left;
+  display: none;
 }
 
 .slider-block__photo__img:nth-child(1) {
@@ -533,7 +534,7 @@ table {
 
 .slider-block__photo__img {
   width:636px;
-  display:inline-block;
+  display:none;
   position:relative;
   float:left;
   z-index:100;
