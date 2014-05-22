@@ -16,17 +16,17 @@ function changeLanguage() {
         document.querySelector(".first_slide_content_change_fifth_h1").innerHTML = "<span>Sharing</span> well-tried<br> solutions with tour agencies";
         document.querySelector(".second_slide_txt").children[1].innerHTML = 'If you are a <span class="second_slide_txt_first">successful</span>  company, and you have business all over the world, we can help you and your employees to focus entirely on business on your business trips';
         document.querySelector(".second_slide_txt_first_hover").children[0].innerHTML = "We work only with successful companies";
-        document.querySelector(".second_slide_txt").children[3].innerHTML = '<span class="second_slide_txt_second">We</span> will deal with flights, hotels, insurances, transfers and restaurant reservations.';
-        document.querySelector(".second_slide_txt_second_hover").children[0].innerHTML = "Our team can make all the arrangements: starting from your office door, and back to it. ";
+        document.querySelector(".second_slide_txt").children[3].innerHTML = '<span class="second_slide_txt_second">We</span> will deal: with flights, hotels, insurances, transfers and restaurant reservations.';
+        document.querySelector(".second_slide_txt_second_hover").children[0].innerHTML = "Our team organizes all aspects of business trip  ";
         document.querySelector(".second_slide_txt").children[5].innerHTML = 'We do what we <span class="second_slide_txt_third">like</span>, you do what you like.';
-        document.querySelector(".second_slide_txt_third_hover").children[0].innerHTML = "We are confident that otherwise there will be no successful results. ";
+        document.querySelector(".second_slide_txt_third_hover").children[0].innerHTML = " We believe, that it is the only way to achieve powerful results.";
         sloganHover();
         document.getElementById("1Plus").innerHTML = "Personal Manager";
         document.getElementById("2Plus").innerHTML = "High technology";
         document.getElementById("3Plus").innerHTML = "Your travel CRM";
-        document.getElementById("1PlusInfo").children[1].innerHTML = "You will have a personal manager available 24/7, dealing with all the possible travel issues. It is the foundation of our business, and we are proud of it. ";
-        document.getElementById("2PlusInfo").children[1].innerHTML = "Of course, it cannot be left out. We look for tickets using 3 locations around the world. It allows us to see almost all the airlines and to find the most suitable transfers, prices. ";
-        document.getElementById("3PlusInfo").children[1].innerHTML = "Now you can see the entire picture of your company’s trip in one computer program. Moreover, it is functional and user friendly.";
+        document.getElementById("1PlusInfo").children[0].innerHTML = "You will have a personal manager available 24/7, dealing with all the possible travel issues. It is the foundation of our business, and we are proud of it. ";
+        document.getElementById("2PlusInfo").children[0].innerHTML = "Of course, it cannot be left out. We look for tickets using 3 locations around the world. It allows us to see almost all the airlines and to find the most suitable transfers, prices. ";
+        document.getElementById("3PlusInfo").children[0].innerHTML = "Now you can see the entire picture of your company’s trip in one computer program. Moreover, it is functional and user friendly.";
         document.querySelector(".slogan__text").innerHTML = "We love business and travel. We stay current on tendencies and can always give you a topnotch advice. We are a very friendly team of professionals.";
         
         $(".second_slide_txt_first_hover_trigle").attr("class","second_slide_txt_first_hover_trigle eng1"); 
@@ -60,10 +60,10 @@ function changeLanguage() {
         document.querySelector(".first_slide_content_change_fifth_h1").innerHTML = "<span>Делимся</span> проверенными<br> решениями с турагенствами";
         document.querySelector(".second_slide_txt").children[1].innerHTML = 'Если вы <span class="second_slide_txt_first">успешная</span> компания, и у вас есть дела по всему миру, мы поможем вам и вашим сотрудникам сфокусироваться на бизнесе во время деловых поездок.';
         document.querySelector(".second_slide_txt_first_hover").children[0].innerHTML = "Мы работаем только с успешными";
-        document.querySelector(".second_slide_txt").children[3].innerHTML = '<span class="second_slide_txt_second">На себя</span> берем перелеты, отели, страховки, трансферы и столики в ресторана.';
-        document.querySelector(".second_slide_txt_second_hover").children[0].innerHTML = "Наша команда организует все: от двери вашего вашего офиса до нее же";
+        document.querySelector(".second_slide_txt").children[3].innerHTML = '<span class="second_slide_txt_second">На себя:</span> берем перелеты, отели, страховки, трансферы и столики в ресторана.';
+        document.querySelector(".second_slide_txt_second_hover").children[0].innerHTML = "Наша команда организует все моменты деловой поездки";
         document.querySelector(".second_slide_txt").children[5].innerHTML = 'Мы занимаемся тем, что нам <span class="second_slide_txt_third">нравится</span>, вы — тем, что вам.';
-        document.querySelector(".second_slide_txt_third_hover").children[0].innerHTML = "Уверены, что по-другому серьезных результатов не достичь";
+        document.querySelector(".second_slide_txt_third_hover").children[0].innerHTML = "Уверены, что только так можно достичь серьезных результатов";
         sloganHover();
         document.querySelector(".second_slide_txt_first_hover").children[0].style.cssText = "margin-left: 0px;";
         document.querySelector(".second_slide_txt_second_hover").children[0].style.cssText = "margin-left: 0px;";
@@ -74,9 +74,9 @@ function changeLanguage() {
         document.getElementById("1Plus").innerHTML = "Персональный менеджер   ";
         document.getElementById("2Plus").innerHTML = "Высокая технологичность   ";
         document.getElementById("3Plus").innerHTML = "Ваша туристическая CRM    ";
-        document.getElementById("1PlusInfo").children[1].innerHTML = "У вас будет персональный менеджер, доступный 24/7 и решающий все возможные туристические вопросы. Это основа нашего продукта и наша гордость.";
-        document.getElementById("2PlusInfo").children[1].innerHTML = "Конечно же, не без этого. Мы ищем билеты через 3 локации в мире (что редкость), это позволяет видеть почти все авиакомпании и находить самые удобные стыковки, и цены.";
-        document.getElementById("3PlusInfo").children[1].innerHTML = "Теперь вы сможете видеть всю картину деловых поездок вашей компании в одной программе. Более того, она удобная и функциональная.";
+        document.getElementById("1PlusInfo").children[0].innerHTML = "У вас будет персональный менеджер, доступный 24/7 и решающий все возможные туристические вопросы. Это основа нашего продукта и наша гордость.";
+        document.getElementById("2PlusInfo").children[0].innerHTML = "Конечно же, не без этого. Мы ищем билеты через 3 локации в мире (что редкость), это позволяет видеть почти все авиакомпании и находить самые удобные стыковки, и цены.";
+        document.getElementById("3PlusInfo").children[0].innerHTML = "Теперь вы сможете видеть всю картину деловых поездок вашей компании в одной программе. Более того, она удобная и функциональная.";
         document.querySelector(".slogan__text").innerHTML = "Нам нравится бизнес и путешествия. Мы в курсе событий и всегда можем дать классные рекомендации. Все мы профессионалы и дружная команда.";
         
 
