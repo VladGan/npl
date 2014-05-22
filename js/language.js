@@ -25,7 +25,7 @@ function changeLanguage() {
         document.getElementById("2Plus").innerHTML = "High technology";
         document.getElementById("3Plus").innerHTML = "Your travel CRM";
         document.getElementById("1PlusInfo").children[0].innerHTML = "You will have a personal manager available 24/7, dealing with all the possible travel issues. It is the foundation of our business, and we are proud of it. ";
-        document.getElementById("2PlusInfo").children[0].innerHTML = "Of course, it cannot be left out. We look for tickets using 3 locations around the world. It allows us to see almost all the airlines and to find the most suitable transfers, prices. ";
+        document.getElementById("2PlusInfo").children[0].innerHTML = "We seek tickets through three world locations (that is rarity). It helps us to find many more airlines and therefore to find the most convenient transfers and prices.";
         document.getElementById("3PlusInfo").children[0].innerHTML = "Now you can see the entire picture of your company’s trip in one computer program. Moreover, it is functional and user friendly.";
         document.querySelector(".slogan__text").innerHTML = "We love business and travel. We stay current on tendencies and can always give you a topnotch advice. We are a very friendly team of professionals.";
         
@@ -75,7 +75,7 @@ function changeLanguage() {
         document.getElementById("2Plus").innerHTML = "Высокая технологичность   ";
         document.getElementById("3Plus").innerHTML = "Ваша туристическая CRM    ";
         document.getElementById("1PlusInfo").children[0].innerHTML = "У вас будет персональный менеджер, доступный 24/7 и решающий все возможные туристические вопросы. Это основа нашего продукта и наша гордость.";
-        document.getElementById("2PlusInfo").children[0].innerHTML = "Конечно же, не без этого. Мы ищем билеты через 3 локации в мире (что редкость), это позволяет видеть почти все авиакомпании и находить самые удобные стыковки, и цены.";
+        document.getElementById("2PlusInfo").children[0].innerHTML = "Мы ищем билеты через 3 мировых локации, что редкость, это позволяет нам видеть намного больше авиакомпаний, а значит находить самые удобные стыковки и цены.";
         document.getElementById("3PlusInfo").children[0].innerHTML = "Теперь вы сможете видеть всю картину деловых поездок вашей компании в одной программе. Более того, она удобная и функциональная.";
         document.querySelector(".slogan__text").innerHTML = "Нам нравится бизнес и путешествия. Мы в курсе событий и всегда можем дать классные рекомендации. Все мы профессионалы и дружная команда.";
         
