@@ -897,7 +897,7 @@ table {
   position:relative;
   margin-top:-60px;
   margin-left:234px;
-  border-left:6px solid #2d99c3;
+  border-left:6px solid #1c65ac;
   padding-top:10px;
   height:90px;
   display:inline-block;
@@ -1027,7 +1027,7 @@ table {
   position:relative;
   opacity:0;
   cursor: default;
-    font-size:22px;
+  font-size:22px;
   margin-bottom: 18px; 
 }
 
