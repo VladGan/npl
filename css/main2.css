@@ -700,9 +700,24 @@ table {
 .menu_language h1 {
   font-family:"PT Sans";
   font-size:12px;
-  text-decoration:underline;
+  padding-bottom: 3px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
   color:#fff;
   cursor:pointer;
+}
+.menu_nav_ul_last_varsion{
+  font-size: 13px !important;
+  border-top: none !important; 
+  color: #939393;
+  padding-bottom: 3px !important;
+ 
+}
+.menu_nav_ul_last_varsion_span{
+  border-bottom: 1px solid rgba(147, 147, 147, 0.2);
+}
+.menu_nav_ul_last_varsion_span:hover{
+  color: rgba(186, 186, 186, 1);
+  border-bottom: 1px solid  rgba(186, 186, 186, 0.2);
 }
 
 .menu_language_rus {
@@ -775,7 +790,8 @@ table {
 }
 
 .menu_contact_tel,
-.menu_contact_mail {
+.menu_contact_mail,
+.menu_contact_skype {
   padding-bottom:10px;
   font-family:"PT Sans";
   font-size:13px;
@@ -786,8 +802,11 @@ table {
   padding-bottom:9px;
 }
 
-.menu_contact_mail {
-  text-decoration:underline;
+.menu_contact_maile_a:hover{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.menu_contact_skype_a:hover{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .menu_contact_img {
