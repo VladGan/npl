@@ -7,14 +7,16 @@ function changeLanguage() {
         document.querySelector(".menu_nav_ul_third").innerHTML = "Our advantages";
         document.querySelector(".menu_nav_ul_fourth").innerHTML = "Our team";
         document.querySelector(".menu_nav_ul_fifth_last").innerHTML = "How to find us";
-        document.querySelector(".first_slide_titel_h1").innerHTML = "We organize<br> business travel";
+        document.querySelector(".menu_nav_ul_last_varsion_span").innerHTML="Old version of site";
+        document.querySelector(".first_slide_titel_h1").innerHTML = "We organize business<br>travel in Ukraine";
         document.querySelector(".first_slide_content_h1").innerHTML = "While";
+        document.querySelector(".menu_contact_tel").innerHTML = "+38 (099) 074 07 83";
         document.querySelector(".first_slide_content_h1").style.cssText = "position: relative; margin-left: 15px;";
         document.querySelector(".first_slide_content_change_first_h1").innerHTML = "<span>Saving </span> up to 30% of<br> your corporate trip budget";
         document.querySelector(".first_slide_content_change_second_h1").innerHTML = "We being <span>familiar</span> everything about flights, hotels and visa requirements ";
         document.querySelector(".first_slide_content_change_fourth_h1").innerHTML = "<span>Maintain</span> conferences<br> all over the world";
         document.querySelector(".first_slide_content_change_fifth_h1").innerHTML = "<span>Sharing</span> well-tried<br> solutions with tour agencies";
-        document.querySelector(".second_slide_txt").children[1].innerHTML = 'If you are a <span class="second_slide_txt_first">successful</span>  company, and you have business all over the world, we can help you and your employees to focus entirely on business on your business trips';
+        document.querySelector(".second_slide_txt").children[1].innerHTML = 'If you are a <span class="second_slide_txt_first">successful</span>  company, and you have business in Ukraine, we can help you and your employees to focus<br> entirely on business on your business trips';
         document.querySelector(".second_slide_txt_first_hover").children[0].innerHTML = "We work only with successful companies";
         document.querySelector(".second_slide_txt").children[3].innerHTML = '<span class="second_slide_txt_second">We</span> will deal: with flights, hotels, insurances, transfers and restaurant reservations.';
         document.querySelector(".second_slide_txt_second_hover").children[0].innerHTML = "Our team organizes all aspects of business trip  ";
@@ -22,10 +24,10 @@ function changeLanguage() {
         document.querySelector(".second_slide_txt_third_hover").children[0].innerHTML = " We believe, that it is the only way to achieve powerful results.";
         sloganHover();
         document.getElementById("1Plus").innerHTML = "Personal Manager";
-        document.getElementById("2Plus").innerHTML = "High technology";
+        document.getElementById("2Plus").innerHTML = "All over Ukraine";
         document.getElementById("3Plus").innerHTML = "Your travel CRM";
-        document.getElementById("1PlusInfo").children[0].innerHTML = "You will have a personal manager available 24/7, dealing with all the possible travel issues. It is the foundation of our business, and we are proud of it. ";
-        document.getElementById("2PlusInfo").children[0].innerHTML = "We seek tickets through three world locations (that is rarity). It helps us to find many more airlines and therefore to find the most convenient transfers and prices.";
+        document.getElementById("1PlusInfo").children[0].innerHTML = "You will have a personal manager available 24/7 who speak English and French, dealing with all the possible travel issues. It is the foundation of our business, and we are proud of it.";
+        document.getElementById("2PlusInfo").children[0].innerHTML = "We can help you with your business trip in every part of Ukraine. Any question that you can face with in Ukraine, we definitely can help you to solve.";
         document.getElementById("3PlusInfo").children[0].innerHTML = "Now you can see the entire picture of your company’s trip in one computer program. Moreover, it is functional and user friendly.";
         document.querySelector(".slogan__text").innerHTML = "We love business and travel. We stay current on tendencies and can always give you a topnotch advice. We are a very friendly team of professionals.";
         
@@ -51,6 +53,8 @@ function changeLanguage() {
         document.querySelector(".menu_nav_ul_third").innerHTML = "Наши плюсы";
         document.querySelector(".menu_nav_ul_fourth").innerHTML = "Наша команда";
         document.querySelector(".menu_nav_ul_fifth_last").innerHTML = "Как нас найти";
+        document.querySelector(".menu_nav_ul_last_varsion_span").innerHTML="Старая версия сайта";
+        document.querySelector(".menu_contact_tel").innerHTML = "+38 (044) 222 94 05";
         document.querySelector(".first_slide_titel_h1").innerHTML = "Мы организовываем  деловые путешествия";
         document.querySelector(".first_slide_content_h1").innerHTML = "При этом";
         document.querySelector(".first_slide_content_h1").style.cssText = "margin-left: 0px;";
