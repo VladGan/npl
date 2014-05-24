@@ -39,6 +39,9 @@ $(document).ready(function () {
 
         i.onload = function () {
             $(".img-wrapper").css("height", this.height + "px!important");
+            if (t[0] == 2 && ($('.menu_language_rus').css("display") == "block")) 
+                $(".info-block__pluses__img").attr("src", "img/2_2.png");
+            else
             $(".info-block__pluses__img").attr("src", "img/" + t[0] + ".png");
 
             if (t[0] == "1")

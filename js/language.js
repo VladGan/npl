@@ -1,5 +1,14 @@
 function changeLanguage() {
     if (l) {
+
+        if ($(".info-block__pluses__img").attr("src") == "img/2.png")
+        {
+            $(".info-block__pluses__img").fadeOut(200);
+            setTimeout(function () {
+                $(".info-block__pluses__img").attr("src", "img/2_2.png");
+                $(".info-block__pluses__img").fadeIn(200);
+            }, 200);
+        }
         document.querySelector(".menu_language_eng").style.cssText = "display: none";
         document.querySelector(".menu_language_rus").style.cssText = "display: block";
         document.querySelector("#menu_nav_ul_first").innerHTML = "Main";
@@ -46,6 +55,15 @@ function changeLanguage() {
         }
         l = false
     } else {
+        if ($(".info-block__pluses__img").attr("src") == "img/2_2.png")
+           {
+            $(".info-block__pluses__img").fadeOut(200);
+            setTimeout(function () {
+                $(".info-block__pluses__img").attr("src", "img/2.png");
+                $(".info-block__pluses__img").fadeIn(200);
+            }, 200);
+            }
+
         document.querySelector(".menu_language_eng").style.cssText = "display: block";
         document.querySelector(".menu_language_rus").style.cssText = "display: none";
         document.querySelector("#menu_nav_ul_first").innerHTML = "Главная";
