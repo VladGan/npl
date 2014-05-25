@@ -122,3 +122,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,.f
 .img-wrapper,.info-block__plus-info img{display:none!important}
 .second_slide_txt_first_hover,.second_slide_txt_second_hover,.eng1_height,.eng2_height{height:25px}
 }
+.menu_contact_tel{
+  line-height: 1.6;
+  padding-bottom: 5px !important;
+}
